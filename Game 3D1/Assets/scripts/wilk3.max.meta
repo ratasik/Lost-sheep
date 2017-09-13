@@ -1,0 +1,424 @@
+fileFormatVersion: 2
+guid: 96d04642dd0c7324f88ea553d18cfee8
+timeCreated: 1501174131
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Helper001
+    100002: wilk
+    100004: //RootNode
+    100006: wolf
+    100008: wolfHead
+    100010: wolfLLeg1
+    100012: wolfLLeg1 1
+    100014: wolfLLeg1 2
+    100016: wolfLLeg2
+    100018: wolfLLeg2 1
+    100020: wolfLLeg2 2
+    100022: wolfLLegCollarbone
+    100024: wolfLLegCollarbone 1
+    100026: wolfLLegDigit01
+    100028: wolfLLegDigit01 1
+    100030: wolfLLegDigit01 2
+    100032: wolfLLegDigit02
+    100034: wolfLLegDigit02 1
+    100036: wolfLLegDigit02 2
+    100038: wolfLLegDigit11
+    100040: wolfLLegDigit11 1
+    100042: wolfLLegDigit11 2
+    100044: wolfLLegDigit12
+    100046: wolfLLegDigit12 1
+    100048: wolfLLegDigit12 2
+    100050: wolfLLegDigit21
+    100052: wolfLLegDigit21 1
+    100054: wolfLLegDigit21 2
+    100056: wolfLLegDigit22
+    100058: wolfLLegDigit22 1
+    100060: wolfLLegDigit22 2
+    100062: wolfLLegDigit31
+    100064: wolfLLegDigit31 1
+    100066: wolfLLegDigit31 2
+    100068: wolfLLegDigit32
+    100070: wolfLLegDigit32 1
+    100072: wolfLLegDigit32 2
+    100074: wolfLLegPalm
+    100076: wolfLLegPalm 1
+    100078: wolfLLegPalm 2
+    100080: wolfLLegPlatform
+    100082: wolfLLegPlatform 1
+    100084: wolfLLegPlatform 2
+    100086: wolfNeck1
+    100088: wolfNeck2
+    100090: wolfNeck3
+    100092: wolfNeck4
+    100094: wolfNeck5
+    100096: wolfPelvis
+    100098: wolfRibcage
+    100100: wolfRLeg1
+    100102: wolfRLeg2
+    100104: wolfRLegDigit01
+    100106: wolfRLegDigit02
+    100108: wolfRLegDigit11
+    100110: wolfRLegDigit12
+    100112: wolfRLegDigit21
+    100114: wolfRLegDigit22
+    100116: wolfRLegDigit31
+    100118: wolfRLegDigit32
+    100120: wolfRLegPalm
+    100122: wolfRLegPlatform
+    100124: wolfSpine1
+    100126: wolfSpine2
+    100128: wolfSpine3
+    100130: wolfSpine4
+    100132: wolfSpine5
+    100134: wolfSpine6
+    100136: wolfTail1
+    100138: wolfTail2
+    100140: wolfTail3
+    100142: wolfTail4
+    400000: Helper001
+    400002: wilk
+    400004: //RootNode
+    400006: wolf
+    400008: wolfHead
+    400010: wolfLLeg1
+    400012: wolfLLeg1 1
+    400014: wolfLLeg1 2
+    400016: wolfLLeg2
+    400018: wolfLLeg2 1
+    400020: wolfLLeg2 2
+    400022: wolfLLegCollarbone
+    400024: wolfLLegCollarbone 1
+    400026: wolfLLegDigit01
+    400028: wolfLLegDigit01 1
+    400030: wolfLLegDigit01 2
+    400032: wolfLLegDigit02
+    400034: wolfLLegDigit02 1
+    400036: wolfLLegDigit02 2
+    400038: wolfLLegDigit11
+    400040: wolfLLegDigit11 1
+    400042: wolfLLegDigit11 2
+    400044: wolfLLegDigit12
+    400046: wolfLLegDigit12 1
+    400048: wolfLLegDigit12 2
+    400050: wolfLLegDigit21
+    400052: wolfLLegDigit21 1
+    400054: wolfLLegDigit21 2
+    400056: wolfLLegDigit22
+    400058: wolfLLegDigit22 1
+    400060: wolfLLegDigit22 2
+    400062: wolfLLegDigit31
+    400064: wolfLLegDigit31 1
+    400066: wolfLLegDigit31 2
+    400068: wolfLLegDigit32
+    400070: wolfLLegDigit32 1
+    400072: wolfLLegDigit32 2
+    400074: wolfLLegPalm
+    400076: wolfLLegPalm 1
+    400078: wolfLLegPalm 2
+    400080: wolfLLegPlatform
+    400082: wolfLLegPlatform 1
+    400084: wolfLLegPlatform 2
+    400086: wolfNeck1
+    400088: wolfNeck2
+    400090: wolfNeck3
+    400092: wolfNeck4
+    400094: wolfNeck5
+    400096: wolfPelvis
+    400098: wolfRibcage
+    400100: wolfRLeg1
+    400102: wolfRLeg2
+    400104: wolfRLegDigit01
+    400106: wolfRLegDigit02
+    400108: wolfRLegDigit11
+    400110: wolfRLegDigit12
+    400112: wolfRLegDigit21
+    400114: wolfRLegDigit22
+    400116: wolfRLegDigit31
+    400118: wolfRLegDigit32
+    400120: wolfRLegPalm
+    400122: wolfRLegPlatform
+    400124: wolfSpine1
+    400126: wolfSpine2
+    400128: wolfSpine3
+    400130: wolfSpine4
+    400132: wolfSpine5
+    400134: wolfSpine6
+    400136: wolfTail1
+    400138: wolfTail2
+    400140: wolfTail3
+    400142: wolfTail4
+    4300000: wilk
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: wilk
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Helper001
+        weight: 1
+      - path: wilk
+        weight: 1
+      - path: wolf
+        weight: 1
+      - path: wolfLLegPlatform
+        weight: 1
+      - path: wolfLLegPlatform 1
+        weight: 1
+      - path: wolfLLegPlatform 2
+        weight: 1
+      - path: wolfPelvis
+        weight: 1
+      - path: wolfPelvis/wolfLLeg1
+        weight: 1
+      - path: wolfPelvis/wolfLLeg1/wolfLLeg2
+        weight: 1
+      - path: wolfPelvis/wolfLLeg1/wolfLLeg2/wolfLLegPalm
+        weight: 1
+      - path: wolfPelvis/wolfLLeg1/wolfLLeg2/wolfLLegPalm/wolfLLegDigit01
+        weight: 1
+      - path: wolfPelvis/wolfLLeg1/wolfLLeg2/wolfLLegPalm/wolfLLegDigit01/wolfLLegDigit02
+        weight: 1
+      - path: wolfPelvis/wolfLLeg1/wolfLLeg2/wolfLLegPalm/wolfLLegDigit11
+        weight: 1
+      - path: wolfPelvis/wolfLLeg1/wolfLLeg2/wolfLLegPalm/wolfLLegDigit11/wolfLLegDigit12
+        weight: 1
+      - path: wolfPelvis/wolfLLeg1/wolfLLeg2/wolfLLegPalm/wolfLLegDigit21
+        weight: 1
+      - path: wolfPelvis/wolfLLeg1/wolfLLeg2/wolfLLegPalm/wolfLLegDigit21/wolfLLegDigit22
+        weight: 1
+      - path: wolfPelvis/wolfLLeg1/wolfLLeg2/wolfLLegPalm/wolfLLegDigit31
+        weight: 1
+      - path: wolfPelvis/wolfLLeg1/wolfLLeg2/wolfLLegPalm/wolfLLegDigit31/wolfLLegDigit32
+        weight: 1
+      - path: wolfPelvis/wolfRLeg1
+        weight: 1
+      - path: wolfPelvis/wolfRLeg1/wolfRLeg2
+        weight: 1
+      - path: wolfPelvis/wolfRLeg1/wolfRLeg2/wolfRLegPalm
+        weight: 1
+      - path: wolfPelvis/wolfRLeg1/wolfRLeg2/wolfRLegPalm/wolfRLegDigit01
+        weight: 1
+      - path: wolfPelvis/wolfRLeg1/wolfRLeg2/wolfRLegPalm/wolfRLegDigit01/wolfRLegDigit02
+        weight: 1
+      - path: wolfPelvis/wolfRLeg1/wolfRLeg2/wolfRLegPalm/wolfRLegDigit11
+        weight: 1
+      - path: wolfPelvis/wolfRLeg1/wolfRLeg2/wolfRLegPalm/wolfRLegDigit11/wolfRLegDigit12
+        weight: 1
+      - path: wolfPelvis/wolfRLeg1/wolfRLeg2/wolfRLegPalm/wolfRLegDigit21
+        weight: 1
+      - path: wolfPelvis/wolfRLeg1/wolfRLeg2/wolfRLegPalm/wolfRLegDigit21/wolfRLegDigit22
+        weight: 1
+      - path: wolfPelvis/wolfRLeg1/wolfRLeg2/wolfRLegPalm/wolfRLegDigit31
+        weight: 1
+      - path: wolfPelvis/wolfRLeg1/wolfRLeg2/wolfRLegPalm/wolfRLegDigit31/wolfRLegDigit32
+        weight: 1
+      - path: wolfPelvis/wolfSpine1
+        weight: 1
+      - path: wolfPelvis/wolfSpine1/wolfSpine2
+        weight: 1
+      - path: wolfPelvis/wolfSpine1/wolfSpine2/wolfSpine3
+        weight: 1
+      - path: wolfPelvis/wolfSpine1/wolfSpine2/wolfSpine3/wolfSpine4
+        weight: 1
+      - path: wolfPelvis/wolfSpine1/wolfSpine2/wolfSpine3/wolfSpine4/wolfSpine5
+        weight: 1
+      - path: wolfPelvis/wolfSpine1/wolfSpine2/wolfSpine3/wolfSpine4/wolfSpine5/wolfSpine6
+        weight: 1
+      - path: wolfPelvis/wolfSpine1/wolfSpine2/wolfSpine3/wolfSpine4/wolfSpine5/wolfSpine6/wolfRibcage
+        weight: 1
+      - path: wolfPelvis/wolfSpine1/wolfSpine2/wolfSpine3/wolfSpine4/wolfSpine5/wolfSpine6/wolfRibcage/wolfLLegCollarbone
+        weight: 1
+      - path: wolfPelvis/wolfSpine1/wolfSpine2/wolfSpine3/wolfSpine4/wolfSpine5/wolfSpine6/wolfRibcage/wolfLLegCollarbone/wolfLLeg1
+          2
+        weight: 1
+      - path: wolfPelvis/wolfSpine1/wolfSpine2/wolfSpine3/wolfSpine4/wolfSpine5/wolfSpine6/wolfRibcage/wolfLLegCollarbone/wolfLLeg1
+          2/wolfLLeg2 2
+        weight: 1
+      - path: wolfPelvis/wolfSpine1/wolfSpine2/wolfSpine3/wolfSpine4/wolfSpine5/wolfSpine6/wolfRibcage/wolfLLegCollarbone/wolfLLeg1
+          2/wolfLLeg2 2/wolfLLegPalm 1
+        weight: 1
+      - path: wolfPelvis/wolfSpine1/wolfSpine2/wolfSpine3/wolfSpine4/wolfSpine5/wolfSpine6/wolfRibcage/wolfLLegCollarbone/wolfLLeg1
+          2/wolfLLeg2 2/wolfLLegPalm 1/wolfLLegDigit01 1
+        weight: 1
+      - path: wolfPelvis/wolfSpine1/wolfSpine2/wolfSpine3/wolfSpine4/wolfSpine5/wolfSpine6/wolfRibcage/wolfLLegCollarbone/wolfLLeg1
+          2/wolfLLeg2 2/wolfLLegPalm 1/wolfLLegDigit01 1/wolfLLegDigit02 1
+        weight: 1
+      - path: wolfPelvis/wolfSpine1/wolfSpine2/wolfSpine3/wolfSpine4/wolfSpine5/wolfSpine6/wolfRibcage/wolfLLegCollarbone/wolfLLeg1
+          2/wolfLLeg2 2/wolfLLegPalm 1/wolfLLegDigit11 1
+        weight: 1
+      - path: wolfPelvis/wolfSpine1/wolfSpine2/wolfSpine3/wolfSpine4/wolfSpine5/wolfSpine6/wolfRibcage/wolfLLegCollarbone/wolfLLeg1
+          2/wolfLLeg2 2/wolfLLegPalm 1/wolfLLegDigit11 1/wolfLLegDigit12 1
+        weight: 1
+      - path: wolfPelvis/wolfSpine1/wolfSpine2/wolfSpine3/wolfSpine4/wolfSpine5/wolfSpine6/wolfRibcage/wolfLLegCollarbone/wolfLLeg1
+          2/wolfLLeg2 2/wolfLLegPalm 1/wolfLLegDigit21 1
+        weight: 1
+      - path: wolfPelvis/wolfSpine1/wolfSpine2/wolfSpine3/wolfSpine4/wolfSpine5/wolfSpine6/wolfRibcage/wolfLLegCollarbone/wolfLLeg1
+          2/wolfLLeg2 2/wolfLLegPalm 1/wolfLLegDigit21 1/wolfLLegDigit22 2
+        weight: 1
+      - path: wolfPelvis/wolfSpine1/wolfSpine2/wolfSpine3/wolfSpine4/wolfSpine5/wolfSpine6/wolfRibcage/wolfLLegCollarbone/wolfLLeg1
+          2/wolfLLeg2 2/wolfLLegPalm 1/wolfLLegDigit31 2
+        weight: 1
+      - path: wolfPelvis/wolfSpine1/wolfSpine2/wolfSpine3/wolfSpine4/wolfSpine5/wolfSpine6/wolfRibcage/wolfLLegCollarbone/wolfLLeg1
+          2/wolfLLeg2 2/wolfLLegPalm 1/wolfLLegDigit31 2/wolfLLegDigit32 1
+        weight: 1
+      - path: wolfPelvis/wolfSpine1/wolfSpine2/wolfSpine3/wolfSpine4/wolfSpine5/wolfSpine6/wolfRibcage/wolfLLegCollarbone
+          1
+        weight: 1
+      - path: wolfPelvis/wolfSpine1/wolfSpine2/wolfSpine3/wolfSpine4/wolfSpine5/wolfSpine6/wolfRibcage/wolfLLegCollarbone
+          1/wolfLLeg1 1
+        weight: 1
+      - path: wolfPelvis/wolfSpine1/wolfSpine2/wolfSpine3/wolfSpine4/wolfSpine5/wolfSpine6/wolfRibcage/wolfLLegCollarbone
+          1/wolfLLeg1 1/wolfLLeg2 1
+        weight: 1
+      - path: wolfPelvis/wolfSpine1/wolfSpine2/wolfSpine3/wolfSpine4/wolfSpine5/wolfSpine6/wolfRibcage/wolfLLegCollarbone
+          1/wolfLLeg1 1/wolfLLeg2 1/wolfLLegPalm 2
+        weight: 1
+      - path: wolfPelvis/wolfSpine1/wolfSpine2/wolfSpine3/wolfSpine4/wolfSpine5/wolfSpine6/wolfRibcage/wolfLLegCollarbone
+          1/wolfLLeg1 1/wolfLLeg2 1/wolfLLegPalm 2/wolfLLegDigit01 2
+        weight: 1
+      - path: wolfPelvis/wolfSpine1/wolfSpine2/wolfSpine3/wolfSpine4/wolfSpine5/wolfSpine6/wolfRibcage/wolfLLegCollarbone
+          1/wolfLLeg1 1/wolfLLeg2 1/wolfLLegPalm 2/wolfLLegDigit01 2/wolfLLegDigit02
+          2
+        weight: 1
+      - path: wolfPelvis/wolfSpine1/wolfSpine2/wolfSpine3/wolfSpine4/wolfSpine5/wolfSpine6/wolfRibcage/wolfLLegCollarbone
+          1/wolfLLeg1 1/wolfLLeg2 1/wolfLLegPalm 2/wolfLLegDigit11 2
+        weight: 1
+      - path: wolfPelvis/wolfSpine1/wolfSpine2/wolfSpine3/wolfSpine4/wolfSpine5/wolfSpine6/wolfRibcage/wolfLLegCollarbone
+          1/wolfLLeg1 1/wolfLLeg2 1/wolfLLegPalm 2/wolfLLegDigit11 2/wolfLLegDigit12
+          2
+        weight: 1
+      - path: wolfPelvis/wolfSpine1/wolfSpine2/wolfSpine3/wolfSpine4/wolfSpine5/wolfSpine6/wolfRibcage/wolfLLegCollarbone
+          1/wolfLLeg1 1/wolfLLeg2 1/wolfLLegPalm 2/wolfLLegDigit21 2
+        weight: 1
+      - path: wolfPelvis/wolfSpine1/wolfSpine2/wolfSpine3/wolfSpine4/wolfSpine5/wolfSpine6/wolfRibcage/wolfLLegCollarbone
+          1/wolfLLeg1 1/wolfLLeg2 1/wolfLLegPalm 2/wolfLLegDigit21 2/wolfLLegDigit22
+          1
+        weight: 1
+      - path: wolfPelvis/wolfSpine1/wolfSpine2/wolfSpine3/wolfSpine4/wolfSpine5/wolfSpine6/wolfRibcage/wolfLLegCollarbone
+          1/wolfLLeg1 1/wolfLLeg2 1/wolfLLegPalm 2/wolfLLegDigit31 1
+        weight: 1
+      - path: wolfPelvis/wolfSpine1/wolfSpine2/wolfSpine3/wolfSpine4/wolfSpine5/wolfSpine6/wolfRibcage/wolfLLegCollarbone
+          1/wolfLLeg1 1/wolfLLeg2 1/wolfLLegPalm 2/wolfLLegDigit31 1/wolfLLegDigit32
+          2
+        weight: 1
+      - path: wolfPelvis/wolfSpine1/wolfSpine2/wolfSpine3/wolfSpine4/wolfSpine5/wolfSpine6/wolfRibcage/wolfNeck1
+        weight: 1
+      - path: wolfPelvis/wolfSpine1/wolfSpine2/wolfSpine3/wolfSpine4/wolfSpine5/wolfSpine6/wolfRibcage/wolfNeck1/wolfNeck2
+        weight: 1
+      - path: wolfPelvis/wolfSpine1/wolfSpine2/wolfSpine3/wolfSpine4/wolfSpine5/wolfSpine6/wolfRibcage/wolfNeck1/wolfNeck2/wolfNeck3
+        weight: 1
+      - path: wolfPelvis/wolfSpine1/wolfSpine2/wolfSpine3/wolfSpine4/wolfSpine5/wolfSpine6/wolfRibcage/wolfNeck1/wolfNeck2/wolfNeck3/wolfNeck4
+        weight: 1
+      - path: wolfPelvis/wolfSpine1/wolfSpine2/wolfSpine3/wolfSpine4/wolfSpine5/wolfSpine6/wolfRibcage/wolfNeck1/wolfNeck2/wolfNeck3/wolfNeck4/wolfNeck5
+        weight: 1
+      - path: wolfPelvis/wolfSpine1/wolfSpine2/wolfSpine3/wolfSpine4/wolfSpine5/wolfSpine6/wolfRibcage/wolfNeck1/wolfNeck2/wolfNeck3/wolfNeck4/wolfNeck5/wolfHead
+        weight: 1
+      - path: wolfPelvis/wolfTail1
+        weight: 1
+      - path: wolfPelvis/wolfTail1/wolfTail2
+        weight: 1
+      - path: wolfPelvis/wolfTail1/wolfTail2/wolfTail3
+        weight: 1
+      - path: wolfPelvis/wolfTail1/wolfTail2/wolfTail3/wolfTail4
+        weight: 1
+      - path: wolfRLegPlatform
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
