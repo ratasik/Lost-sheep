@@ -1,0 +1,1635 @@
+﻿Log file open, 09/28/17 23:01:10
+LogInit:Display: Running engine for game: MyProject3
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1621388886) SRandInit(-1621388886).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.219485
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.09.29-05.01.12:377][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.29-05.01.12:377][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.29-05.01.12:504][  0]LogInit: Computer: KOMPUTER
+[2017.09.29-05.01.12:504][  0]LogInit: User: Admin
+[2017.09.29-05.01.12:504][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.09.29-05.01.12:504][  0]LogInit: High frequency timer resolution =1.949467 MHz
+[2017.09.29-05.01.12:504][  0]LogMemory: Memory total: Physical=5.0GB (5GB approx)
+[2017.09.29-05.01.12:504][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.29-05.01.12:504][  0]LogMemory: Process Physical Memory: 273.35 MB used, 273.35 MB peak
+[2017.09.29-05.01.12:504][  0]LogMemory: Process Virtual Memory: 266.77 MB used, 266.77 MB peak
+[2017.09.29-05.01.12:504][  0]LogMemory: Physical Memory: 4304.60 MB used,  776.63 MB free, 5081.23 MB total
+[2017.09.29-05.01.12:504][  0]LogMemory: Virtual Memory: 643.76 MB used,  776.63 MB free, 134217728.00 MB total
+[2017.09.29-05.01.12:832][  0]LogInit: Using OS detected language (pl-PL).
+[2017.09.29-05.01.12:832][  0]LogInit: Using OS detected locale (dyo-SN).
+[2017.09.29-05.01.12:852][  0]LogTextLocalizationManager: No localization for 'pl-PL' exists, so 'en' will be used for the language.
+[2017.09.29-05.01.12:853][  0]LogTextLocalizationManager: No localization for 'dyo-SN' exists, so 'en' will be used for the locale.
+[2017.09.29-05.01.17:644][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.29-05.01.17:686][  0]LogD3D11RHI:    0. 'AMD Radeon(TM) R5 Graphics' (Feature Level 11_0)
+[2017.09.29-05.01.17:686][  0]LogD3D11RHI:       1007/0/2540 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2017.09.29-05.01.17:692][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.09.29-05.01.17:692][  0]LogD3D11RHI:       0/0/2540 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.09.29-05.01.17:692][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.29-05.01.17:705][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.29-05.01.17:705][  0]LogD3D11RHI:     GPU DeviceId: 0x9851 (for the marketing name, search the web for "GPU Device Id")
+[2017.09.29-05.01.17:705][  0]LogWindows: EnumDisplayDevices:
+[2017.09.29-05.01.17:706][  0]LogWindows:    0. 'AMD Radeon(TM) R5 Graphics' (P:1 D:1)
+[2017.09.29-05.01.17:706][  0]LogWindows:    1. 'AMD Radeon(TM) R5 Graphics' (P:0 D:0)
+[2017.09.29-05.01.17:707][  0]LogWindows: DebugString: FoundDriverCount:2 
+[2017.09.29-05.01.17:707][  0]LogD3D11RHI:     Adapter Name: AMD Radeon(TM) R5 Graphics
+[2017.09.29-05.01.17:707][  0]LogD3D11RHI:   Driver Version: 15.201.1101.0 (internal:15.201.1101.0, unified:15.201.1101.0)
+[2017.09.29-05.01.17:707][  0]LogD3D11RHI:      Driver Date: 8-6-2015
+[2017.09.29-05.01.17:707][  0]LogRHI: Texture pool is 705 MB (70% of 1007 MB)
+[2017.09.29-05.01.18:022][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.29-05.01.18:053][  0]LogD3D11RHI: GPU Timing Frequency: 100.000000 (Debug: 2 1)
+[2017.09.29-05.01.18:059][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../../Users/Admin/Documents/Unreal Projects/MyProject3/Intermediate/Shaders/WorkingDirectory/9164/).
+[2017.09.29-05.01.18:059][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Admin/AppData/Local/Temp/UnrealShaderWorkingDir/C3E530EE42F693243AD7EDBB7A81263E/'.
+[2017.09.29-05.01.18:059][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.09.29-05.01.26:008][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.29-05.01.26:254][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.09.29-05.01.26:481][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.29-05.01.26:724][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.09.29-05.01.26:969][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.09.29-05.01.27:215][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.29-05.01.27:445][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.29-05.01.27:691][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.29-05.01.27:908][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.09.29-05.01.28:155][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.09.29-05.01.28:391][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.29-05.01.28:636][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.29-05.01.28:879][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.29-05.01.29:129][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.29-05.01.29:362][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.29-05.01.29:823][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.29-05.01.29:823][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.29-05.01.30:024][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.09.29-05.01.30:387][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.09.29-05.01.30:533][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.09.29-05.01.30:765][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.29-05.01.30:993][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.29-05.01.31:229][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.29-05.01.31:462][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.09.29-05.01.31:462][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.09.29-05.01.33:904][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.09.29-05.01.34:239][  0]LogDerivedDataCache: Loaded boot cache 0.33s 90MB C:/Users/Admin/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.09.29-05.01.34:239][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Admin/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.09.29-05.01.34:239][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Admin/Documents/Unreal Projects/MyProject3/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.29-05.01.34:239][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.29-05.01.34:239][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Admin/Documents/Unreal Projects/MyProject3/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.29-05.01.34:239][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.29-05.01.34:309][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.29-05.01.34:324][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Admin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.29-05.01.34:360][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.09.29-05.01.34:361][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.29-05.01.34:362][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.29-05.01.34:362][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.29-05.01.35:916][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.29-05.01.36:206][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.29-05.01.36:857][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.29-05.01.37:075][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.29-05.01.37:295][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.29-05.01.37:295][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.09.29-05.01.37:296][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.09.29-05.01.39:539][  0]LogNetVersion: MyProject3 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3387135090)
+[2017.09.29-05.01.39:728][  0]LogAssetRegistry: FAssetRegistry took 0.0381 seconds to start up
+[2017.09.29-05.01.40:048][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.209839 seconds
+[2017.09.29-05.01.40:070][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.09.29-05.01.40:070][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.09.29-05.01.40:070][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.29-05.01.40:381][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.29-05.01.54:051][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.29-05.01.54:204][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.29-05.01.56:608][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.29-05.01.58:617][  0]SourceControl: Info Source control is disabled
+[2017.09.29-05.01.58:621][  0]SourceControl: Info Source control is disabled
+[2017.09.29-05.01.58:840][  0]SourceControl: Info Source control is disabled
+[2017.09.29-05.01.59:079][  0]SourceControl: Info Source control is disabled
+[2017.09.29-05.02.02:464][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.09.29-05.02.05:190][  0]LogEngine: Initializing Engine...
+[2017.09.29-05.02.05:192][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.09.29-05.02.05:873][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.29-05.02.05:873][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.29-05.02.06:518][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.29-05.02.06:539][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.29-05.02.06:570][  0]LogInit: FAudioDevice initialized.
+[2017.09.29-05.02.06:762][  0]LogDerivedDataCache: Saved boot cache 0.19s 90MB C:/Users/Admin/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.09.29-05.02.06:826][  0]LogInit: Texture streaming: Enabled
+[2017.09.29-05.02.07:305][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.29-05.02.08:615][  0]LogInit: Transaction tracking system initialized
+[2017.09.29-05.02.10:090][  0]BlueprintLog: New page: Editor Load
+[2017.09.29-05.02.14:616][  0]LocalizationService: Info Localization service is disabled
+[2017.09.29-05.02.17:887][  0]LogConsoleResponse:Display: 
+[2017.09.29-05.02.18:809][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.29-05.02.18:809][  0]LogCook:Display: Mobile HDR setting 1
+[2017.09.29-05.02.19:488][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Admin/Documents/Unreal Projects/MyProject3/Content/' took 0.11s
+[2017.09.29-05.02.23:932][  0]SourceControl: Info Source control is disabled
+[2017.09.29-05.02.28:280][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.09.29-05.02.28:319][  0]LogSlate: Took 0.001120 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.29-05.02.57:922][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.09.29-05.02.57:925][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.09.29-05.03.06:982][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Admin/Documents/Unreal Projects/MyProject3/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.29-05.03.07:124][  0]LightingResults: New page: Lighting Build
+[2017.09.29-05.03.07:336][  0]MapCheck: New page: Map Check
+[2017.09.29-05.03.07:336][  0]LightingResults: New page: Lighting Build
+[2017.09.29-05.03.15:512][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.09.29-05.03.16:325][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.29-05.03.16:458][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.29-05.03.16:709][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 251.596ms to complete.
+[2017.09.29-05.03.16:711][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 9.729
+[2017.09.29-05.03.18:689][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_10bc_0///####STATCAT_Advanced#### old //STATGROUP_Threads//SplashScreenThread///Thread_1430_0///####STATCAT_Advanced####
+[2017.09.29-05.03.18:689][  0]LogCollectionManager: Loaded 0 collections in 0.004625 seconds
+[2017.09.29-05.03.19:332][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Admin/Documents/Unreal Projects/MyProject3/Saved/Collections/' took 0.01s
+[2017.09.29-05.03.19:332][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Admin/Documents/Unreal Projects/MyProject3/Content/Developers/Admin/Collections/' took 0.01s
+[2017.09.29-05.03.19:332][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Admin/Documents/Unreal Projects/MyProject3/Content/Collections/' took 0.01s
+[2017.09.29-05.03.19:332][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000014 seconds
+[2017.09.29-05.03.19:417][  0]LogContentBrowser: Native class hierarchy populated in 0.0493 seconds. Added 2329 classes and 491 folders.
+[2017.09.29-05.03.20:010][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0032 seconds. Added 0 classes and 0 folders.
+[2017.09.29-05.03.22:893][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0017 seconds. Added 0 classes and 0 folders.
+[2017.09.29-05.03.23:267][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0019 seconds. Added 1 classes and 2 folders.
+[2017.09.29-05.03.24:319][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.09.29-05.03.24:560][  0]LogSlate: Took 0.000696 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.29-05.03.24:754][  0]LogSlate: Took 0.068154 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.29-05.03.26:312][  0]LogRenderer: Reallocating scene render targets to support 888x456 NumSamples 1 (Frame:1).
+[2017.09.29-05.03.28:750][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.09.29-05.03.29:008][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0018 seconds. Added 1 classes and 2 folders.
+[2017.09.29-05.03.29:009][  0]LogLoad: (Engine Initialization) Total time: 147.77 seconds
+[2017.09.29-05.03.29:009][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.15 seconds
+[2017.09.29-05.03.29:009][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.09.29-05.03.29:009][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.09.29-05.03.29:028][  0]LogOcInput: OculusInput pre-init called
+[2017.09.29-05.03.29:028][  0]LogHMD: Starting GearVRController plugin
+[2017.09.29-05.03.29:363][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.09.29-05.03.29:616][  0]LogSlate: Took 0.109995 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.29-05.03.30:562][  6]LogAssetRegistry: Asset discovery search completed in 110.8576 seconds
+[2017.09.29-05.03.30:569][  6]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000005 seconds (found 0 objects)
+[2017.09.29-05.03.30:569][  6]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000238 seconds (updated 0 objects)
+[2017.09.29-05.03.59:100][537]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.29-05.03.59:140][537]LogSlate: Took 0.000602 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.29-05.03.59:190][537]LightingResults: New page: Lighting Build
+[2017.09.29-05.03.59:194][537]LoadErrors: New page: Loading map: Template_Default.umap
+[2017.09.29-05.03.59:233][537]MapCheck: New page: Map Check
+[2017.09.29-05.03.59:233][537]LightingResults: New page: Lighting Build
+[2017.09.29-05.03.59:335][537]LogAIModule: Creating AISystem for world Untitled_1
+[2017.09.29-05.03.59:394][537]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.09.29-05.03.59:596][537]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.29-05.03.59:664][537]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.29-05.03.59:919][537]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 255.175ms to complete.
+[2017.09.29-05.03.59:919][537]LogFileHelpers: Loading map 'Template_Default' took 0.870
+[2017.09.29-05.04.18:575][833]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.29-05.04.42:577][174]Cmd: TRANSACTION UNDO
+[2017.09.29-05.04.42:577][174]LogEditorTransaction: Undo Move Actors
+[2017.09.29-05.04.42:841][174]LogSlate: Took 0.000832 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.29-05.04.46:444][235]Cmd: TRANSACTION UNDO
+[2017.09.29-05.04.46:444][235]LogEditorTransaction: Undo Move Actors
+[2017.09.29-05.05.08:621][585]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.29-05.05.09:339][585]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.29-05.05.09:466][585]PIE: New page: PIE session: Untitled_1 (Sep 28, 2017, 5:05:09 PM)
+[2017.09.29-05.05.09:492][585]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.09.29-05.05.09:584][585]LogPlayLevel: PIE: StaticDuplicateObject took: (0.091481s)
+[2017.09.29-05.05.09:585][585]LogAIModule: Creating AISystem for world Untitled_1
+[2017.09.29-05.05.09:586][585]LogPlayLevel: PIE: World Init took: (0.001886s)
+[2017.09.29-05.05.09:598][585]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.105891s)
+[2017.09.29-05.05.09:776][585]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.29-05.05.09:807][585]LogInit: FAudioDevice initialized.
+[2017.09.29-05.05.09:913][585]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.09.29-05.05.10:270][585]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2017.09.28-23.05.10
+[2017.09.29-05.05.10:301][585]LogWorld: Bringing up level for play took: 0.018375
+[2017.09.29-05.05.10:939][585]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0019 seconds. Added 11 classes and 0 folders.
+[2017.09.29-05.05.11:964][585]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 1.99
+[2017.09.29-05.05.23:948][761]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.29-05.05.37:282][872]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2017.09.29-05.05.47:987][981]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.29-05.05.48:052][981]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.29-05.05.48:052][981]PIE: New page: PIE session: Untitled_1 (Sep 28, 2017, 5:05:48 PM)
+[2017.09.29-05.05.48:052][981]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.09.29-05.05.48:063][981]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010788s)
+[2017.09.29-05.05.48:066][981]LogAIModule: Creating AISystem for world Untitled_1
+[2017.09.29-05.05.48:066][981]LogPlayLevel: PIE: World Init took: (0.002964s)
+[2017.09.29-05.05.48:067][981]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.014370s)
+[2017.09.29-05.05.48:108][981]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.29-05.05.48:137][981]LogInit: FAudioDevice initialized.
+[2017.09.29-05.05.48:190][981]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.09.29-05.05.48:196][981]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2017.09.28-23.05.48
+[2017.09.29-05.05.48:197][981]LogWorld: Bringing up level for play took: 0.003282
+[2017.09.29-05.05.48:209][981]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.234
+[2017.09.29-05.06.03:052][224]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.29-05.06.06:978][283]Cmd: TRANSACTION UNDO
+[2017.09.29-05.06.06:978][283]LogEditorTransaction: Undo Move Actors
+[2017.09.29-05.06.21:034][487]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2017.09.29-05.06.56:346][ 39]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.29-05.06.56:415][ 39]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.29-05.06.56:415][ 39]PIE: New page: PIE session: Untitled_1 (Sep 28, 2017, 5:06:56 PM)
+[2017.09.29-05.06.56:416][ 39]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.09.29-05.06.56:427][ 39]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011075s)
+[2017.09.29-05.06.56:429][ 39]LogAIModule: Creating AISystem for world Untitled_1
+[2017.09.29-05.06.56:430][ 39]LogPlayLevel: PIE: World Init took: (0.002917s)
+[2017.09.29-05.06.56:430][ 39]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.014695s)
+[2017.09.29-05.06.56:486][ 39]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.29-05.06.56:517][ 39]LogInit: FAudioDevice initialized.
+[2017.09.29-05.06.56:572][ 39]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.09.29-05.06.56:580][ 39]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2017.09.28-23.06.56
+[2017.09.29-05.06.56:581][ 39]LogWorld: Bringing up level for play took: 0.004281
+[2017.09.29-05.06.56:591][ 39]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.617
+[2017.09.29-05.07.07:417][207]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor4)
+[2017.09.29-05.07.08:574][223]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor3)
+[2017.09.29-05.12.20:539][205]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Admin/Documents/Unreal Projects/MyProject3/Content/TexturesCom_TilesOrnate0066_M.jpg)
+[2017.09.29-05.12.21:094][205]LogTexture:Display: Building textures: TexturesCom_TilesOrnate0066_M (AutoDXT, 1600X912)
+[2017.09.29-05.13.05:790][391]LogMaterial: Missing cached shader map for material TexturesCom_TilesOrnate0066_M_Mat, compiling. 
+[2017.09.29-05.13.11:149][429]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor4)
+[2017.09.29-05.13.16:206][479]AssetReimport: New page: Outstanding source content changes 5:13:16 PM
+[2017.09.29-05.13.16:348][480]LogEditorFactories: Performing atomic reimport of [C:/Users/Admin/Documents/Unreal Projects/MyProject3/Content/TexturesCom_TilesOrnate0066_M.jpg]
+[2017.09.29-05.13.16:354][480]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Admin/Documents/Unreal Projects/MyProject3/Content/TexturesCom_TilesOrnate0066_M.jpg)
+[2017.09.29-05.13.21:772][480]LogEditorFactories: -- imported successfully
+[2017.09.29-05.13.25:084][501]AssetReimport: Info Reimported asset TexturesCom_TilesOrnate0066_M from C:/Users/Admin/Documents/Unreal Projects/MyProject3/Content/TexturesCom_TilesOrnate0066_M.jpg.
+[2017.09.29-05.13.28:132][529]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.29-05.13.28:198][529]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.29-05.13.28:199][529]PIE: New page: PIE session: Untitled_1 (Sep 28, 2017, 5:13:28 PM)
+[2017.09.29-05.13.28:199][529]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.09.29-05.13.28:228][529]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028669s)
+[2017.09.29-05.13.28:234][529]LogAIModule: Creating AISystem for world Untitled_1
+[2017.09.29-05.13.28:237][529]LogPlayLevel: PIE: World Init took: (0.008793s)
+[2017.09.29-05.13.28:238][529]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.038326s)
+[2017.09.29-05.13.28:342][529]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.29-05.13.28:373][529]LogInit: FAudioDevice initialized.
+[2017.09.29-05.13.28:440][529]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.09.29-05.13.28:448][529]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2017.09.28-23.13.28
+[2017.09.29-05.13.28:449][529]LogWorld: Bringing up level for play took: 0.005213
+[2017.09.29-05.13.28:463][529]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.489
+[2017.09.29-05.13.42:630][750]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor3)
+[2017.09.29-05.14.13:664][231]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.29-05.14.13:729][231]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.29-05.14.13:730][231]PIE: New page: PIE session: Untitled_1 (Sep 28, 2017, 5:14:13 PM)
+[2017.09.29-05.14.13:730][231]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.09.29-05.14.13:742][231]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012181s)
+[2017.09.29-05.14.13:745][231]LogAIModule: Creating AISystem for world Untitled_1
+[2017.09.29-05.14.13:746][231]LogPlayLevel: PIE: World Init took: (0.003653s)
+[2017.09.29-05.14.13:748][231]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.018456s)
+[2017.09.29-05.14.13:804][231]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.29-05.14.13:832][231]LogInit: FAudioDevice initialized.
+[2017.09.29-05.14.13:888][231]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.09.29-05.14.13:895][231]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2017.09.28-23.14.13
+[2017.09.29-05.14.13:896][231]LogWorld: Bringing up level for play took: 0.004706
+[2017.09.29-05.14.13:906][231]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.068
+[2017.09.29-05.14.23:345][377]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor5)
+[2017.09.29-05.15.12:796][796]LogSlate: Took 0.419753 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.29-05.15.13:061][796]LogSavePackage: Save=1562.35ms
+[2017.09.29-05.15.13:065][796]LogSavePackage: Moving '../../../../../../Users/Admin/Documents/Unreal Projects/MyProject3/Saved/Untitled_1_Auto1489D0F2E41EF2AF7F3A738A7D420FB2E.tmp' to '../../../../../../Users/Admin/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Temp/Untitled_1_Auto1.umap'
+[2017.09.29-05.15.13:077][796]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Admin/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Temp/Untitled_1_Auto1.umap
+[2017.09.29-05.15.13:107][796]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 2.663
+[2017.09.29-05.15.13:107][796]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.663
+[2017.09.29-05.15.13:299][796]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/TexturesCom_TilesOrnate0066_M] ([1] browsable assets)...
+[2017.09.29-05.15.13:407][796]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/FirstPersonBP/TexturesCom_TilesOrnate0066_M.TexturesCom_TilesOrnate0066_M]
+[2017.09.29-05.15.13:407][796]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/TexturesCom_TilesOrnate0066_M]
+[2017.09.29-05.15.13:844][796]LogSavePackage: Save=410.92ms
+[2017.09.29-05.15.13:844][796]LogSavePackage: Moving '../../../../../../Users/Admin/Documents/Unreal Projects/MyProject3/Saved/TexturesCom_TilesOrnate0066_M_Auto196A9C8F0420594DF1A95A98A67E8A07D.tmp' to '../../../../../../Users/Admin/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/FirstPersonBP/TexturesCom_TilesOrnate0066_M_Auto1.uasset'
+[2017.09.29-05.15.13:859][796]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Admin/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/FirstPersonBP/TexturesCom_TilesOrnate0066_M_Auto1.uasset
+[2017.09.29-05.15.13:862][796]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/TexturesCom_TilesOrnate0066_M_Mat] ([1] browsable assets)...
+[2017.09.29-05.15.14:292][796]OBJ SavePackage:     Rendered thumbnail for [Material /Game/FirstPersonBP/TexturesCom_TilesOrnate0066_M_Mat.TexturesCom_TilesOrnate0066_M_Mat]
+[2017.09.29-05.15.14:292][796]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/TexturesCom_TilesOrnate0066_M_Mat]
+[2017.09.29-05.15.14:705][796]LogSavePackage: Save=198.41ms
+[2017.09.29-05.15.14:707][796]LogSavePackage: Moving '../../../../../../Users/Admin/Documents/Unreal Projects/MyProject3/Saved/TexturesCom_TilesOrnate0066_M_Mat_Auto1FB06392E4C06FAC70D51138E07EFF630.tmp' to '../../../../../../Users/Admin/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/FirstPersonBP/TexturesCom_TilesOrnate0066_M_Mat_Auto1.uasset'
+[2017.09.29-05.15.14:743][796]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Admin/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/FirstPersonBP/TexturesCom_TilesOrnate0066_M_Mat_Auto1.uasset
+[2017.09.29-05.15.14:744][796]LogFileHelpers: Auto-saving content packages took 1.449
+[2017.09.29-05.15.46:370][ 25]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.09.29-05.17.09:088][449]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor3)
+[2017.09.29-05.17.14:002][515]Cmd: DELETE
+[2017.09.29-05.17.14:002][515]Cmd: ACTOR DELETE
+[2017.09.29-05.17.14:241][515]LogEditorActor: Deleted Actor: Brush
+[2017.09.29-05.17.14:285][515]LogEditorActor: Deleted 1 Actors (0.059 secs)
+[2017.09.29-05.17.15:534][534]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor3)
+[2017.09.29-05.19.12:637][ 60]Cmd: BRUSH SUBTRACT SELECTNEWBRUSH
+[2017.09.29-05.19.15:364][ 97]LogEditorViewport: Clicking on Actor (LMB): Brush (Sphere Brush)
+[2017.09.29-05.20.21:494][747]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.29-05.20.21:545][747]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.29-05.20.21:546][747]PIE: New page: PIE session: Untitled_1 (Sep 28, 2017, 5:20:21 PM)
+[2017.09.29-05.20.21:546][747]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.09.29-05.20.21:572][747]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026336s)
+[2017.09.29-05.20.21:575][747]LogAIModule: Creating AISystem for world Untitled_1
+[2017.09.29-05.20.21:576][747]LogPlayLevel: PIE: World Init took: (0.003434s)
+[2017.09.29-05.20.21:576][747]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.030430s)
+[2017.09.29-05.20.21:613][747]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.29-05.20.21:644][747]LogInit: FAudioDevice initialized.
+[2017.09.29-05.20.21:691][747]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.09.29-05.20.21:697][747]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2017.09.28-23.20.21
+[2017.09.29-05.20.21:697][747]LogWorld: Bringing up level for play took: 0.003484
+[2017.09.29-05.20.21:706][747]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.268
+[2017.09.29-05.20.46:047][110]Cmd: DELETE
+[2017.09.29-05.20.46:047][110]Cmd: ACTOR DELETE
+[2017.09.29-05.20.46:050][110]LogEditorActor: Deleted Actor: Brush
+[2017.09.29-05.20.46:119][110]LogEditorActor: Deleted 1 Actors (0.072 secs)
+[2017.09.29-05.20.50:911][173]Cmd: BRUSH SUBTRACT SELECTNEWBRUSH
+[2017.09.29-05.21.52:633][521]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2017.09.29-05.21.54:226][529]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.29-05.21.55:521][540]Cmd: TRANSACTION UNDO
+[2017.09.29-05.21.55:521][540]LogEditorTransaction: Undo Clicking on Actors
+[2017.09.29-05.22.18:006][810]Cmd: BRUSH SUBTRACT SELECTNEWBRUSH
+[2017.09.29-05.22.26:315][931]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor4)
+[2017.09.29-05.25.20:993][691]LogSavePackage: Save=921.29ms
+[2017.09.29-05.25.21:024][691]LogSavePackage: Moving '../../../../../../Users/Admin/Documents/Unreal Projects/MyProject3/Saved/Untitled_1_Auto2B8ABE09C4D577594049AF1AD8E6B4892.tmp' to '../../../../../../Users/Admin/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Temp/Untitled_1_Auto2.umap'
+[2017.09.29-05.25.21:036][691]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Admin/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Temp/Untitled_1_Auto2.umap
+[2017.09.29-05.25.21:126][691]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 1.233
+[2017.09.29-05.25.21:126][691]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.233
+[2017.09.29-05.26.04:445][883]Cmd: BRUSH SUBTRACT SELECTNEWBRUSH
+[2017.09.29-05.26.11:406][975]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor3)
+[2017.09.29-05.26.13:358][  1]Cmd: TRANSACTION UNDO
+[2017.09.29-05.26.13:358][  1]LogEditorTransaction: Undo Clicking on Actors
+[2017.09.29-05.26.14:246][  9]Cmd: TRANSACTION UNDO
+[2017.09.29-05.26.14:246][  9]LogEditorTransaction: Undo Move Actors
+[2017.09.29-05.26.14:361][  9]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_1.Untitled_1:PersistentLevel.SphereBrush_5.BrushComponent0) Component already registered.
+[2017.09.29-05.26.14:877][ 14]Cmd: TRANSACTION UNDO
+[2017.09.29-05.26.14:877][ 14]LogEditorTransaction: Undo Brush Subtract
+[2017.09.29-05.26.21:670][102]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.09.29-05.27.10:808][585]Cmd: DELETE
+[2017.09.29-05.27.10:808][585]Cmd: ACTOR DELETE
+[2017.09.29-05.27.10:810][585]LogEditorActor: Deleted Actor: Brush
+[2017.09.29-05.27.10:887][585]LogEditorActor: Deleted 1 Actors (0.078 secs)
+[2017.09.29-05.27.11:697][596]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor4)
+[2017.09.29-05.28.04:878][196]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor4)
+[2017.09.29-05.28.05:038][196]Cmd: DELETE
+[2017.09.29-05.28.05:038][196]Cmd: ACTOR DELETE
+[2017.09.29-05.28.05:039][196]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.09.29-05.28.05:068][196]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2017.09.29-05.28.06:398][217]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor6)
+[2017.09.29-05.28.06:583][217]Cmd: DELETE
+[2017.09.29-05.28.06:583][217]Cmd: ACTOR DELETE
+[2017.09.29-05.28.06:584][217]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.09.29-05.28.06:617][217]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2017.09.29-05.28.08:207][242]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor3)
+[2017.09.29-05.28.08:564][243]Cmd: DELETE
+[2017.09.29-05.28.08:564][243]Cmd: ACTOR DELETE
+[2017.09.29-05.28.08:566][243]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.09.29-05.28.08:602][243]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2017.09.29-05.28.09:206][253]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor5)
+[2017.09.29-05.28.09:498][254]Cmd: DELETE
+[2017.09.29-05.28.09:498][254]Cmd: ACTOR DELETE
+[2017.09.29-05.28.09:500][254]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.09.29-05.28.09:541][254]LogEditorActor: Deleted 1 Actors (0.042 secs)
+[2017.09.29-05.28.14:943][340]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.09.29-05.28.51:158][901]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.29-05.28.51:225][901]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.29-05.28.51:226][901]PIE: New page: PIE session: Untitled_1 (Sep 28, 2017, 5:28:51 PM)
+[2017.09.29-05.28.51:226][901]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.09.29-05.28.51:246][901]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019466s)
+[2017.09.29-05.28.51:249][901]LogAIModule: Creating AISystem for world Untitled_1
+[2017.09.29-05.28.51:250][901]LogPlayLevel: PIE: World Init took: (0.003782s)
+[2017.09.29-05.28.51:250][901]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.024012s)
+[2017.09.29-05.28.51:299][901]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.29-05.28.51:335][901]LogInit: FAudioDevice initialized.
+[2017.09.29-05.28.51:393][901]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.09.29-05.28.51:399][901]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2017.09.28-23.28.51
+[2017.09.29-05.28.51:399][901]LogWorld: Bringing up level for play took: 0.002998
+[2017.09.29-05.28.51:409][901]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.565
+[2017.09.29-05.29.26:841][476]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.29-05.29.45:089][759]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush)
+[2017.09.29-05.29.53:756][893]Cmd: TRANSACTION UNDO
+[2017.09.29-05.29.53:756][893]LogEditorTransaction: Undo Edit Z
+[2017.09.29-05.29.59:243][967]Cmd: TRANSACTION UNDO
+[2017.09.29-05.29.59:243][967]LogEditorTransaction: Undo Edit Y
+[2017.09.29-05.30.09:071][112]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2017.09.29-05.30.11:793][140]Cmd: TRANSACTION UNDO
+[2017.09.29-05.30.11:793][140]LogEditorTransaction: Undo Move Actors
+[2017.09.29-05.31.01:604][878]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.29-05.31.14:790][ 69]Cmd: TRANSACTION UNDO
+[2017.09.29-05.31.14:791][ 69]LogEditorTransaction: Undo Move Actors
+[2017.09.29-05.31.14:858][ 69]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_1.Untitled_1:PersistentLevel.BoxBrush_10.BrushComponent0) Component already registered.
+[2017.09.29-05.31.35:618][359]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.09.29-05.31.53:954][588]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.29-05.32.01:817][698]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.29-05.32.02:934][711]Cmd: DELETE
+[2017.09.29-05.32.02:935][711]Cmd: ACTOR DELETE
+[2017.09.29-05.32.02:936][711]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
+[2017.09.29-05.32.03:002][711]LogEditorActor: Deleted 1 Actors (0.067 secs)
+[2017.09.29-05.32.04:636][738]Cmd: TRANSACTION UNDO
+[2017.09.29-05.32.04:636][738]LogEditorTransaction: Undo Delete Actors
+[2017.09.29-05.32.05:046][741]Cmd: TRANSACTION UNDO
+[2017.09.29-05.32.05:046][741]LogEditorTransaction: Undo Clicking on Actors
+[2017.09.29-05.32.05:709][746]Cmd: TRANSACTION UNDO
+[2017.09.29-05.32.05:709][746]LogEditorTransaction: Undo Clicking on Actors
+[2017.09.29-05.32.06:356][753]Cmd: TRANSACTION UNDO
+[2017.09.29-05.32.06:356][753]LogEditorTransaction: Undo Move Actors
+[2017.09.29-05.32.07:036][759]Cmd: TRANSACTION UNDO
+[2017.09.29-05.32.07:036][759]LogEditorTransaction: Undo Edit Brush Type
+[2017.09.29-05.32.08:107][768]Cmd: TRANSACTION UNDO
+[2017.09.29-05.32.08:107][768]LogEditorTransaction: Undo Select Brush Surface
+[2017.09.29-05.32.09:113][778]Cmd: TRANSACTION UNDO
+[2017.09.29-05.32.09:113][778]LogEditorTransaction: Undo Select Brush Surface
+[2017.09.29-05.32.09:754][784]Cmd: TRANSACTION UNDO
+[2017.09.29-05.32.09:754][784]LogEditorTransaction: Undo Move Actors
+[2017.09.29-05.32.10:738][792]Cmd: TRANSACTION UNDO
+[2017.09.29-05.32.10:739][792]LogEditorTransaction: Undo Brush Add
+[2017.09.29-05.32.11:363][797]Cmd: TRANSACTION UNDO
+[2017.09.29-05.32.11:364][797]LogEditorTransaction: Undo Select Brush Surface
+[2017.09.29-05.32.22:818][951]Cmd: EDCALLBACK SURFPROPS
+[2017.09.29-05.32.23:776][960]Cmd: EDCALLBACK SURFPROPS
+[2017.09.29-05.32.53:465][404]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.09.29-05.33.02:692][540]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.29-05.33.04:983][570]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.29-05.33.05:047][570]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.29-05.33.05:048][570]PIE: New page: PIE session: Untitled_1 (Sep 28, 2017, 5:33:05 PM)
+[2017.09.29-05.33.05:048][570]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.09.29-05.33.05:076][570]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027346s)
+[2017.09.29-05.33.05:078][570]LogAIModule: Creating AISystem for world Untitled_1
+[2017.09.29-05.33.05:080][570]LogPlayLevel: PIE: World Init took: (0.003629s)
+[2017.09.29-05.33.05:080][570]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.031723s)
+[2017.09.29-05.33.05:124][570]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.29-05.33.05:159][570]LogInit: FAudioDevice initialized.
+[2017.09.29-05.33.05:213][570]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.09.29-05.33.05:219][570]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2017.09.28-23.33.05
+[2017.09.29-05.33.05:220][570]LogWorld: Bringing up level for play took: 0.003047
+[2017.09.29-05.33.05:252][570]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.723
+[2017.09.29-05.33.32:933][960]Cmd: TRANSACTION UNDO
+[2017.09.29-05.33.32:933][960]LogEditorTransaction: Undo Move Actors
+[2017.09.29-05.33.33:870][970]Cmd: TRANSACTION UNDO
+[2017.09.29-05.33.33:870][970]LogEditorTransaction: Undo Clicking on Actors
+[2017.09.29-05.33.34:313][974]Cmd: TRANSACTION UNDO
+[2017.09.29-05.33.34:313][974]LogEditorTransaction: Undo Clicking on Actors
+[2017.09.29-05.33.35:177][980]Cmd: TRANSACTION UNDO
+[2017.09.29-05.33.35:177][980]LogEditorTransaction: Undo Select Brush Surface
+[2017.09.29-05.33.35:790][986]Cmd: TRANSACTION UNDO
+[2017.09.29-05.33.35:790][986]LogEditorTransaction: Undo Select Surfaces
+[2017.09.29-05.33.36:611][991]Cmd: TRANSACTION UNDO
+[2017.09.29-05.33.36:612][991]LogEditorTransaction: Undo Clicking on Actors
+[2017.09.29-05.33.37:448][998]Cmd: TRANSACTION UNDO
+[2017.09.29-05.33.37:448][998]LogEditorTransaction: Undo Move Actors
+[2017.09.29-05.34.01:684][322]LogEditorViewport: Clicking on Actor (LMB): Brush (Sphere Brush3)
+[2017.09.29-05.34.07:491][394]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.29-05.34.07:561][394]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.29-05.34.07:561][394]PIE: New page: PIE session: Untitled_1 (Sep 28, 2017, 5:34:07 PM)
+[2017.09.29-05.34.07:561][394]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.09.29-05.34.07:686][394]LogPlayLevel: PIE: StaticDuplicateObject took: (0.124372s)
+[2017.09.29-05.34.07:689][394]LogAIModule: Creating AISystem for world Untitled_1
+[2017.09.29-05.34.07:690][394]LogPlayLevel: PIE: World Init took: (0.004122s)
+[2017.09.29-05.34.07:691][394]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.129170s)
+[2017.09.29-05.34.07:730][394]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.29-05.34.07:761][394]LogInit: FAudioDevice initialized.
+[2017.09.29-05.34.07:816][394]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.09.29-05.34.07:823][394]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2017.09.28-23.34.07
+[2017.09.29-05.34.07:823][394]LogWorld: Bringing up level for play took: 0.004320
+[2017.09.29-05.34.07:833][394]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.141
+[2017.09.29-05.34.28:277][707]Cmd: TRANSACTION UNDO
+[2017.09.29-05.34.28:277][707]LogEditorTransaction: Undo Move Actors
+[2017.09.29-05.34.56:188][ 49]Cmd: TRANSACTION UNDO
+[2017.09.29-05.34.56:188][ 49]LogEditorTransaction: Undo Move Actors
+[2017.09.29-05.35.06:565][155]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.29-05.35.14:895][261]Cmd: TRANSACTION UNDO
+[2017.09.29-05.35.14:896][261]LogEditorTransaction: Undo Move Actors
+[2017.09.29-05.35.17:207][280]Cmd: TRANSACTION UNDO
+[2017.09.29-05.35.17:207][280]LogEditorTransaction: Undo Select Brush Surface
+[2017.09.29-05.35.18:364][289]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.29-05.35.19:982][304]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.29-05.35.20:039][304]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.29-05.35.20:040][304]PIE: New page: PIE session: Untitled_1 (Sep 28, 2017, 5:35:20 PM)
+[2017.09.29-05.35.20:040][304]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.09.29-05.35.20:242][304]LogPlayLevel: PIE: StaticDuplicateObject took: (0.201637s)
+[2017.09.29-05.35.20:245][304]LogAIModule: Creating AISystem for world Untitled_1
+[2017.09.29-05.35.20:246][304]LogPlayLevel: PIE: World Init took: (0.003791s)
+[2017.09.29-05.35.20:246][304]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.205959s)
+[2017.09.29-05.35.20:294][304]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.29-05.35.20:318][304]LogInit: FAudioDevice initialized.
+[2017.09.29-05.35.20:369][304]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.09.29-05.35.20:376][304]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2017.09.28-23.35.20
+[2017.09.29-05.35.20:377][304]LogWorld: Bringing up level for play took: 0.005529
+[2017.09.29-05.35.20:391][304]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.416
+[2017.09.29-05.35.48:948][751]Cmd: TRANSACTION UNDO
+[2017.09.29-05.35.48:948][751]LogEditorTransaction: Undo Move Actors
+[2017.09.29-05.35.50:769][762]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.29-05.35.51:931][770]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor2)
+[2017.09.29-05.36.00:055][894]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.29-05.36.00:125][894]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.29-05.36.00:126][894]PIE: New page: PIE session: Untitled_1 (Sep 28, 2017, 5:36:00 PM)
+[2017.09.29-05.36.00:126][894]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.09.29-05.36.00:350][894]LogPlayLevel: PIE: StaticDuplicateObject took: (0.223904s)
+[2017.09.29-05.36.00:353][894]LogAIModule: Creating AISystem for world Untitled_1
+[2017.09.29-05.36.00:353][894]LogPlayLevel: PIE: World Init took: (0.002815s)
+[2017.09.29-05.36.00:354][894]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.227423s)
+[2017.09.29-05.36.00:396][894]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.29-05.36.00:422][894]LogInit: FAudioDevice initialized.
+[2017.09.29-05.36.00:472][894]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.09.29-05.36.00:482][894]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2017.09.28-23.36.00
+[2017.09.29-05.36.00:483][894]LogWorld: Bringing up level for play took: 0.008055
+[2017.09.29-05.36.00:495][894]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.52
+[2017.09.29-05.36.09:127][ 31]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2017.09.29-05.36.11:902][ 71]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor)
+[2017.09.29-05.36.17:904][160]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.29-05.36.19:230][176]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor2)
+[2017.09.29-05.36.20:687][195]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.29-05.36.21:722][207]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.29-05.36.22:486][214]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor2)
+[2017.09.29-05.36.35:868][403]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.29-05.36.35:932][403]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.29-05.36.35:933][403]PIE: New page: PIE session: Untitled_1 (Sep 28, 2017, 5:36:35 PM)
+[2017.09.29-05.36.35:933][403]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.09.29-05.36.36:154][403]LogPlayLevel: PIE: StaticDuplicateObject took: (0.220801s)
+[2017.09.29-05.36.36:156][403]LogAIModule: Creating AISystem for world Untitled_1
+[2017.09.29-05.36.36:156][403]LogPlayLevel: PIE: World Init took: (0.002378s)
+[2017.09.29-05.36.36:157][403]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.223981s)
+[2017.09.29-05.36.36:202][403]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.29-05.36.36:227][403]LogInit: FAudioDevice initialized.
+[2017.09.29-05.36.36:277][403]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.09.29-05.36.36:285][403]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2017.09.28-23.36.36
+[2017.09.29-05.36.36:286][403]LogWorld: Bringing up level for play took: 0.006225
+[2017.09.29-05.36.36:298][403]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.324
+[2017.09.29-05.36.42:693][506]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2017.09.29-05.36.43:678][514]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.29-05.36.44:554][525]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor2)
+[2017.09.29-05.36.51:162][623]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2017.09.29-05.37.21:340][ 48]Cmd: TRANSACTION UNDO
+[2017.09.29-05.37.21:340][ 48]LogEditorTransaction: Undo Move Actors
+[2017.09.29-05.37.31:234][155]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.29-05.37.31:289][155]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.29-05.37.31:290][155]PIE: New page: PIE session: Untitled_1 (Sep 28, 2017, 5:37:31 PM)
+[2017.09.29-05.37.31:290][155]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.09.29-05.37.31:480][155]LogPlayLevel: PIE: StaticDuplicateObject took: (0.190030s)
+[2017.09.29-05.37.31:482][155]LogAIModule: Creating AISystem for world Untitled_1
+[2017.09.29-05.37.31:483][155]LogPlayLevel: PIE: World Init took: (0.002720s)
+[2017.09.29-05.37.31:483][155]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.193489s)
+[2017.09.29-05.37.31:532][155]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.29-05.37.31:556][155]LogInit: FAudioDevice initialized.
+[2017.09.29-05.37.31:609][155]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.09.29-05.37.31:618][155]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2017.09.28-23.37.31
+[2017.09.29-05.37.31:618][155]LogWorld: Bringing up level for play took: 0.006291
+[2017.09.29-05.37.31:629][155]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.346
+[2017.09.29-05.37.50:794][438]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.09.29-05.38.26:160][852]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.29-05.38.26:234][852]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.29-05.38.26:235][852]PIE: New page: PIE session: Untitled_1 (Sep 28, 2017, 5:38:26 PM)
+[2017.09.29-05.38.26:235][852]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.09.29-05.38.26:422][852]LogPlayLevel: PIE: StaticDuplicateObject took: (0.186878s)
+[2017.09.29-05.38.26:424][852]LogAIModule: Creating AISystem for world Untitled_1
+[2017.09.29-05.38.26:424][852]LogPlayLevel: PIE: World Init took: (0.002542s)
+[2017.09.29-05.38.26:425][852]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.189952s)
+[2017.09.29-05.38.26:474][852]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.29-05.38.26:498][852]LogInit: FAudioDevice initialized.
+[2017.09.29-05.38.26:552][852]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.09.29-05.38.26:561][852]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2017.09.28-23.38.26
+[2017.09.29-05.38.26:562][852]LogWorld: Bringing up level for play took: 0.006451
+[2017.09.29-05.38.26:573][852]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.598
+[2017.09.29-05.39.07:671][456]Cmd: TRANSACTION UNDO
+[2017.09.29-05.39.07:671][456]LogEditorTransaction: Undo Move Actors
+[2017.09.29-05.39.22:943][638]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2017.09.29-05.39.27:984][707]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor)
+[2017.09.29-05.39.37:861][845]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.29-05.39.37:943][845]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.29-05.39.37:943][845]PIE: New page: PIE session: Untitled_1 (Sep 28, 2017, 5:39:37 PM)
+[2017.09.29-05.39.37:944][845]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.09.29-05.39.38:166][845]LogPlayLevel: PIE: StaticDuplicateObject took: (0.222545s)
+[2017.09.29-05.39.38:168][845]LogAIModule: Creating AISystem for world Untitled_1
+[2017.09.29-05.39.38:169][845]LogPlayLevel: PIE: World Init took: (0.002429s)
+[2017.09.29-05.39.38:170][845]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.226554s)
+[2017.09.29-05.39.38:232][845]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.29-05.39.38:260][845]LogInit: FAudioDevice initialized.
+[2017.09.29-05.39.38:312][845]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.09.29-05.39.38:320][845]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2017.09.28-23.39.38
+[2017.09.29-05.39.38:321][845]LogWorld: Bringing up level for play took: 0.006101
+[2017.09.29-05.39.38:380][845]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.406
+[2017.09.29-05.40.09:733][262]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.29-05.40.09:819][262]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.29-05.40.09:819][262]PIE: New page: PIE session: Untitled_1 (Sep 28, 2017, 5:40:09 PM)
+[2017.09.29-05.40.09:820][262]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.09.29-05.40.09:997][262]LogPlayLevel: PIE: StaticDuplicateObject took: (0.177099s)
+[2017.09.29-05.40.10:000][262]LogAIModule: Creating AISystem for world Untitled_1
+[2017.09.29-05.40.10:000][262]LogPlayLevel: PIE: World Init took: (0.003131s)
+[2017.09.29-05.40.10:001][262]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.180780s)
+[2017.09.29-05.40.10:050][262]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.29-05.40.10:073][262]LogInit: FAudioDevice initialized.
+[2017.09.29-05.40.10:129][262]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.09.29-05.40.10:137][262]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2017.09.28-23.40.10
+[2017.09.29-05.40.10:138][262]LogWorld: Bringing up level for play took: 0.005688
+[2017.09.29-05.40.10:147][262]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.172
+[2017.09.29-05.40.55:337][857]LogEditorActor: Deleted Actor: Brush
+[2017.09.29-05.40.56:118][857]LogEditorActor: Deleted 1 Actors (0.785 secs)
+[2017.09.29-05.41.10:658][ 52]Cmd: TRANSACTION UNDO
+[2017.09.29-05.41.10:659][ 52]LogEditorTransaction: Undo Set Actor Visibility
+[2017.09.29-05.41.11:403][ 60]Cmd: TRANSACTION UNDO
+[2017.09.29-05.41.11:404][ 60]LogEditorTransaction: Undo Set Actor Visibility
+[2017.09.29-05.41.12:949][ 75]Cmd: TRANSACTION UNDO
+[2017.09.29-05.41.12:949][ 75]LogEditorTransaction: Undo Set Actor Visibility
+[2017.09.29-05.41.13:694][ 83]Cmd: TRANSACTION UNDO
+[2017.09.29-05.41.13:694][ 83]LogEditorTransaction: Undo Set Actor Visibility
+[2017.09.29-05.41.14:013][ 86]Cmd: TRANSACTION UNDO
+[2017.09.29-05.41.14:014][ 86]LogEditorTransaction: Undo Set Actor Visibility
+[2017.09.29-05.41.14:745][ 93]Cmd: TRANSACTION UNDO
+[2017.09.29-05.41.14:745][ 93]LogEditorTransaction: Undo Set Actor Visibility
+[2017.09.29-05.41.15:579][102]Cmd: TRANSACTION UNDO
+[2017.09.29-05.41.15:579][102]LogEditorTransaction: Undo Clicking on Actors
+[2017.09.29-05.41.16:313][110]Cmd: TRANSACTION UNDO
+[2017.09.29-05.41.16:313][110]LogEditorTransaction: Undo Delete selection
+[2017.09.29-05.41.16:647][110]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_1.Untitled_1:PersistentLevel.BoxBrush4.BrushComponent0) Component already registered.
+[2017.09.29-05.41.16:648][110]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_1.Untitled_1:PersistentLevel.BoxBrush7.BrushComponent0) Component already registered.
+[2017.09.29-05.41.16:973][112]Cmd: TRANSACTION UNDO
+[2017.09.29-05.41.16:973][112]LogEditorTransaction: Undo Set Actor Visibility
+[2017.09.29-05.41.31:715][261]LogEditorActor: Deleted Actor: Brush
+[2017.09.29-05.41.32:546][261]LogEditorActor: Deleted 1 Actors (0.835 secs)
+[2017.09.29-05.41.49:564][464]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.29-05.42.06:896][656]Cmd: TRANSACTION UNDO
+[2017.09.29-05.42.06:896][656]LogEditorTransaction: Undo Move Actors
+[2017.09.29-05.42.42:615][ 21]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor4)
+[2017.09.29-05.42.45:973][ 58]Cmd: TRANSACTION UNDO
+[2017.09.29-05.42.45:974][ 58]LogEditorTransaction: Undo Scale Actors
+[2017.09.29-05.42.55:709][156]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.29-05.42.55:779][156]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.29-05.42.55:779][156]PIE: New page: PIE session: Untitled_1 (Sep 28, 2017, 5:42:55 PM)
+[2017.09.29-05.42.55:780][156]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.09.29-05.42.56:007][156]LogPlayLevel: PIE: StaticDuplicateObject took: (0.227403s)
+[2017.09.29-05.42.56:010][156]LogAIModule: Creating AISystem for world Untitled_1
+[2017.09.29-05.42.56:011][156]LogPlayLevel: PIE: World Init took: (0.003532s)
+[2017.09.29-05.42.56:011][156]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.231592s)
+[2017.09.29-05.42.56:085][156]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.29-05.42.56:115][156]LogInit: FAudioDevice initialized.
+[2017.09.29-05.42.56:164][156]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.09.29-05.42.56:174][156]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2017.09.28-23.42.56
+[2017.09.29-05.42.56:174][156]LogWorld: Bringing up level for play took: 0.006815
+[2017.09.29-05.42.56:187][156]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.213
+[2017.09.29-05.44.02:114][ 24]Cmd: SELECT NONE
+[2017.09.29-05.44.10:246][123]LogSlate: Took 0.039455 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.09.29-05.45.04:839][774]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.29-05.45.04:912][774]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.29-05.45.04:912][774]PIE: New page: PIE session: Untitled_1 (Sep 28, 2017, 5:45:04 PM)
+[2017.09.29-05.45.04:912][774]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.09.29-05.45.05:135][774]LogPlayLevel: PIE: StaticDuplicateObject took: (0.222059s)
+[2017.09.29-05.45.05:136][774]LogAIModule: Creating AISystem for world Untitled_1
+[2017.09.29-05.45.05:137][774]LogPlayLevel: PIE: World Init took: (0.002227s)
+[2017.09.29-05.45.05:137][774]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.224892s)
+[2017.09.29-05.45.05:196][774]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.29-05.45.05:223][774]LogInit: FAudioDevice initialized.
+[2017.09.29-05.45.05:277][774]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.09.29-05.45.05:287][774]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2017.09.28-23.45.05
+[2017.09.29-05.45.05:288][774]LogWorld: Bringing up level for play took: 0.007283
+[2017.09.29-05.45.05:298][774]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 1.324
+[2017.09.29-05.45.50:550][352]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.09.29-05.46.44:713][964]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.29-05.47.44:934][320]LogSavePackage: Save=2981.30ms
+[2017.09.29-05.47.44:934][320]LogSavePackage: Moving '../../../../../../Users/Admin/Documents/Unreal Projects/MyProject3/Saved/Untitled_1_Auto371DBBC054E94473894C04298E571AD69.tmp' to '../../../../../../Users/Admin/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Temp/Untitled_1_Auto3.umap'
+[2017.09.29-05.47.44:938][320]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Admin/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Temp/Untitled_1_Auto3.umap
+[2017.09.29-05.47.44:954][320]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 3.241
+[2017.09.29-05.47.44:954][320]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.241
+[2017.09.29-05.49.25:256][553]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Admin/Documents/Unreal Projects/MyProject3/Content/TexturesCom_FabricPatterns0118_1_S.jpg)
+[2017.09.29-05.49.25:407][553]LogTexture:Display: Building textures: TexturesCom_FabricPatterns0118_1_S (AutoDXT, 1024X660)
+[2017.09.29-05.49.36:111][620]LogMaterial: Missing cached shader map for material TexturesCom_FabricPatterns0118_1_S_Mat, compiling. 
+[2017.09.29-05.49.45:768][693]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.29-05.49.45:822][693]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.29-05.49.45:823][693]PIE: New page: PIE session: Untitled_1 (Sep 28, 2017, 5:49:45 PM)
+[2017.09.29-05.49.45:823][693]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.09.29-05.49.46:026][693]LogPlayLevel: PIE: StaticDuplicateObject took: (0.202367s)
+[2017.09.29-05.49.46:029][693]LogAIModule: Creating AISystem for world Untitled_1
+[2017.09.29-05.49.46:029][693]LogPlayLevel: PIE: World Init took: (0.003389s)
+[2017.09.29-05.49.46:030][693]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.206580s)
+[2017.09.29-05.49.46:070][693]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.29-05.49.46:111][693]LogInit: FAudioDevice initialized.
+[2017.09.29-05.49.46:167][693]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.09.29-05.49.46:176][693]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2017.09.28-23.49.46
+[2017.09.29-05.49.46:176][693]LogWorld: Bringing up level for play took: 0.006379
+[2017.09.29-05.49.46:187][693]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.212
+[2017.09.29-05.50.12:667][958]AssetReimport: New page: Outstanding source content changes 5:50:12 PM
+[2017.09.29-05.50.12:758][959]LogEditorFactories: Performing atomic reimport of [C:/Users/Admin/Documents/Unreal Projects/MyProject3/Content/TexturesCom_FabricPatterns0118_1_S.jpg]
+[2017.09.29-05.50.12:910][959]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Admin/Documents/Unreal Projects/MyProject3/Content/TexturesCom_FabricPatterns0118_1_S.jpg)
+[2017.09.29-05.50.15:672][959]LogEditorFactories: -- imported successfully
+[2017.09.29-05.50.18:911][983]AssetReimport: Info Reimported asset TexturesCom_FabricPatterns0118_1_S from C:/Users/Admin/Documents/Unreal Projects/MyProject3/Content/TexturesCom_FabricPatterns0118_1_S.jpg.
+[2017.09.29-05.50.30:313][100]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.29-05.50.38:439][146]LogMaterial: Missing cached shader map for material TexturesCom_FabricPatterns0118_1_S_Mat, compiling. 
+[2017.09.29-05.50.39:219][146]LogMaterial: Missing cached shader map for material TexturesCom_FabricPatterns0118_1_S_Mat, compiling. 
+[2017.09.29-05.50.39:319][146]LogMaterial: Missing cached shader map for material TexturesCom_FabricPatterns0118_1_S_Mat, compiling. 
+[2017.09.29-05.50.39:426][146]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.09.29-05.50.39:560][146]LogSlate: Took 0.029407 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.09.29-05.51.09:886][332]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2017.09.29-05.51.09:886][332]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.09.29-05.51.09:886][332]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.09.29-05.51.09:886][332]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.09.29-05.51.23:647][437]LogMaterial: Missing cached shader map for material TexturesCom_FabricPatterns0118_1_S_Mat, compiling. 
+[2017.09.29-05.51.23:698][437]LogMaterial: Missing cached shader map for material TexturesCom_FabricPatterns0118_1_S_Mat, compiling. 
+[2017.09.29-05.51.44:531][583]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2017.09.29-05.51.44:531][583]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.09.29-05.51.44:531][583]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.09.29-05.51.44:531][583]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.09.29-05.52.11:364][794]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0030 seconds. Added 1 classes and 2 folders.
+[2017.09.29-05.52.20:188][877]LogTexture:Display: Building textures: TexturesCom_FabricPatterns0118_1_S (AutoDXT, 1024X660)
+[2017.09.29-05.52.27:794][920]LogSavePackage: Save=409.10ms
+[2017.09.29-05.52.27:795][920]LogSavePackage: Moving '../../../../../../Users/Admin/Documents/Unreal Projects/MyProject3/Saved/TexturesCom_FabricPatterns0118_1_S41E2C4E343BBE9E9DD1671B6A5D06465.tmp' to '../../../../../../Users/Admin/Documents/Unreal Projects/MyProject3/Content/FirstPersonBP/TexturesCom_FabricPatterns0118_1_S.uasset'
+[2017.09.29-05.52.27:828][920]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Admin/Documents/Unreal Projects/MyProject3/Content/FirstPersonBP/TexturesCom_FabricPatterns0118_1_S.uasset
+[2017.09.29-05.52.39:863][938]LogMaterial: Missing cached shader map for material TexturesCom_FabricPatterns0118_1_S_Mat, compiling. 
+[2017.09.29-05.52.39:996][938]LogMaterial: Missing cached shader map for material TexturesCom_FabricPatterns0118_1_S_Mat, compiling. 
+[2017.09.29-05.52.40:097][938]LogMaterial: Missing cached shader map for material TexturesCom_FabricPatterns0118_1_S_Mat, compiling. 
+[2017.09.29-05.52.40:375][938]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy TexturesCom_FabricPatterns0118_1_S_Mat, compiling. 
+[2017.09.29-05.52.50:745][938]TextureStreamingBuild:Display: Compiling optional shaders took 10.390 seconds.
+[2017.09.29-05.52.54:310][962]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.29-05.52.55:586][972]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.29-05.52.59:461][972]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.29-05.52.59:461][972]PIE: New page: PIE session: Untitled_1 (Sep 28, 2017, 5:52:59 PM)
+[2017.09.29-05.52.59:461][972]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.09.29-05.52.59:646][972]LogPlayLevel: PIE: StaticDuplicateObject took: (0.184939s)
+[2017.09.29-05.52.59:650][972]LogAIModule: Creating AISystem for world Untitled_1
+[2017.09.29-05.52.59:650][972]LogPlayLevel: PIE: World Init took: (0.004053s)
+[2017.09.29-05.52.59:651][972]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.189538s)
+[2017.09.29-05.52.59:693][972]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.29-05.52.59:723][972]LogInit: FAudioDevice initialized.
+[2017.09.29-05.52.59:780][972]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.09.29-05.52.59:788][972]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2017.09.28-23.52.59
+[2017.09.29-05.52.59:789][972]LogWorld: Bringing up level for play took: 0.005899
+[2017.09.29-05.52.59:800][972]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.174
+[2017.09.29-05.53.22:240][232]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2017.09.29-05.53.48:488][498]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.29-05.53.48:553][498]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.29-05.53.48:553][498]PIE: New page: PIE session: Untitled_1 (Sep 28, 2017, 5:53:48 PM)
+[2017.09.29-05.53.48:554][498]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.09.29-05.53.48:778][498]LogPlayLevel: PIE: StaticDuplicateObject took: (0.224215s)
+[2017.09.29-05.53.48:780][498]LogAIModule: Creating AISystem for world Untitled_1
+[2017.09.29-05.53.48:780][498]LogPlayLevel: PIE: World Init took: (0.002526s)
+[2017.09.29-05.53.48:781][498]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.227701s)
+[2017.09.29-05.53.48:832][498]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.29-05.53.48:857][498]LogInit: FAudioDevice initialized.
+[2017.09.29-05.53.48:907][498]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.09.29-05.53.48:916][498]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2017.09.28-23.53.48
+[2017.09.29-05.53.48:917][498]LogWorld: Bringing up level for play took: 0.006373
+[2017.09.29-05.53.48:996][498]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 1.022
+[2017.09.29-05.54.12:477][806]Cmd: TRANSACTION UNDO
+[2017.09.29-05.54.12:478][806]LogEditorTransaction: Undo Move Actors
+[2017.09.29-05.54.12:838][806]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_1.Untitled_1:PersistentLevel.BoxBrush4.BrushComponent0) Component already registered.
+[2017.09.29-05.54.12:838][806]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_1.Untitled_1:PersistentLevel.BoxBrush9.BrushComponent0) Component already registered.
+[2017.09.29-05.54.12:876][806]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_1.Untitled_1:PersistentLevel.BoxBrush7.BrushComponent0) Component already registered.
+[2017.09.29-05.54.12:877][806]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_1.Untitled_1:PersistentLevel.BoxBrush8.BrushComponent0) Component already registered.
+[2017.09.29-05.55.05:876][443]Cmd: POLY TEXSCALE  UU=16.000000 VV=0.363636
+[2017.09.29-05.55.08:549][476]Cmd: POLY TEXSCALE  UU=16.000000 VV=0.363636
+[2017.09.29-05.55.09:561][488]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.29-05.55.09:626][488]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.29-05.55.09:627][488]PIE: New page: PIE session: Untitled_1 (Sep 28, 2017, 5:55:09 PM)
+[2017.09.29-05.55.09:627][488]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.09.29-05.55.09:854][488]LogPlayLevel: PIE: StaticDuplicateObject took: (0.227022s)
+[2017.09.29-05.55.09:856][488]LogAIModule: Creating AISystem for world Untitled_1
+[2017.09.29-05.55.09:857][488]LogPlayLevel: PIE: World Init took: (0.002527s)
+[2017.09.29-05.55.09:857][488]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.230161s)
+[2017.09.29-05.55.09:911][488]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.29-05.55.09:936][488]LogInit: FAudioDevice initialized.
+[2017.09.29-05.55.09:993][488]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.09.29-05.55.10:003][488]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2017.09.28-23.55.10
+[2017.09.29-05.55.10:004][488]LogWorld: Bringing up level for play took: 0.006075
+[2017.09.29-05.55.10:016][488]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.042
+[2017.09.29-05.55.32:431][784]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.09.29-05.57.28:261][563]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.29-05.58.01:437][866]Cmd: TRANSACTION UNDO
+[2017.09.29-05.58.01:438][866]LogEditorTransaction: Undo Brush Set
+[2017.09.29-05.58.01:789][866]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_1.Untitled_1:PersistentLevel.BoxBrush4.BrushComponent0) Component already registered.
+[2017.09.29-05.58.01:840][866]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_1.Untitled_1:PersistentLevel.BoxBrush7.BrushComponent0) Component already registered.
+[2017.09.29-05.58.01:842][866]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_1.Untitled_1:PersistentLevel.BoxBrush10.BrushComponent0) Component already registered.
+[2017.09.29-05.58.39:591][233]Cmd: TRANSACTION UNDO
+[2017.09.29-05.58.39:592][233]LogEditorTransaction: Undo Edit Tessellated
+[2017.09.29-05.58.39:996][233]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_1.Untitled_1:PersistentLevel.SphereBrush4.BrushComponent0) Component already registered.
+[2017.09.29-05.58.40:005][233]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_1.Untitled_1:PersistentLevel.BoxBrush5.BrushComponent0) Component already registered.
+[2017.09.29-05.58.40:988][241]Cmd: TRANSACTION UNDO
+[2017.09.29-05.58.40:988][241]LogEditorTransaction: Undo Edit Tessellated
+[2017.09.29-05.58.41:343][241]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_1.Untitled_1:PersistentLevel.SphereBrush4.BrushComponent0) Component already registered.
+[2017.09.29-05.58.41:348][241]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_1.Untitled_1:PersistentLevel.BoxBrush5.BrushComponent0) Component already registered.
+[2017.09.29-05.58.55:024][418]Cmd: DELETE
+[2017.09.29-05.58.55:024][418]Cmd: ACTOR DELETE
+[2017.09.29-05.58.55:034][418]LogEditorActor: Deleted Actor: Brush
+[2017.09.29-05.58.55:838][418]LogEditorActor: Deleted 1 Actors (0.809 secs)
+[2017.09.29-05.58.56:611][424]Cmd: DELETE
+[2017.09.29-05.58.56:611][424]Cmd: ACTOR DELETE
+[2017.09.29-05.58.56:614][424]LogEditorActor: Deleted Actor: Brush
+[2017.09.29-05.58.57:307][424]LogEditorActor: Deleted 1 Actors (0.695 secs)
+[2017.09.29-05.59.50:773][998]LogActorFactory: Actor Factory created Cube
+[2017.09.29-05.59.52:621][ 18]LogActorFactory: Actor Factory created Cube
+[2017.09.29-06.00.19:737][307]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube)
+[2017.09.29-06.00.30:661][398]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.09.29-06.00.40:185][515]Cmd: TRANSACTION UNDO
+[2017.09.29-06.00.40:185][515]LogEditorTransaction: Undo Scale Actors
+[2017.09.29-06.00.49:233][616]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.29-06.00.50:306][624]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.09.29-06.01.05:629][806]Cmd: TRANSACTION UNDO
+[2017.09.29-06.01.05:629][806]LogEditorTransaction: Undo Move Actors
+[2017.09.29-06.01.12:930][884]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.29-06.01.13:000][884]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.29-06.01.13:000][884]PIE: New page: PIE session: Untitled_1 (Sep 28, 2017, 6:01:13 PM)
+[2017.09.29-06.01.13:001][884]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.09.29-06.01.13:228][884]LogPlayLevel: PIE: StaticDuplicateObject took: (0.226419s)
+[2017.09.29-06.01.13:230][884]LogAIModule: Creating AISystem for world Untitled_1
+[2017.09.29-06.01.13:231][884]LogPlayLevel: PIE: World Init took: (0.002864s)
+[2017.09.29-06.01.13:231][884]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.230194s)
+[2017.09.29-06.01.13:280][884]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.29-06.01.13:309][884]LogInit: FAudioDevice initialized.
+[2017.09.29-06.01.13:362][884]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.09.29-06.01.13:372][884]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2017.09.29-00.01.13
+[2017.09.29-06.01.13:372][884]LogWorld: Bringing up level for play took: 0.006643
+[2017.09.29-06.01.13:400][884]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.574
+[2017.09.29-06.01.26:489][ 58]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.09.29-06.01.31:751][121]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.29-06.01.31:819][121]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.29-06.01.31:820][121]PIE: New page: PIE session: Untitled_1 (Sep 28, 2017, 6:01:31 PM)
+[2017.09.29-06.01.31:821][121]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.09.29-06.01.32:043][121]LogPlayLevel: PIE: StaticDuplicateObject took: (0.222098s)
+[2017.09.29-06.01.32:045][121]LogAIModule: Creating AISystem for world Untitled_1
+[2017.09.29-06.01.32:045][121]LogPlayLevel: PIE: World Init took: (0.002319s)
+[2017.09.29-06.01.32:046][121]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.225050s)
+[2017.09.29-06.01.32:088][121]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.29-06.01.32:116][121]LogInit: FAudioDevice initialized.
+[2017.09.29-06.01.32:167][121]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.09.29-06.01.32:176][121]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2017.09.29-00.01.32
+[2017.09.29-06.01.32:176][121]LogWorld: Bringing up level for play took: 0.005656
+[2017.09.29-06.01.32:204][121]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.229
+[2017.09.29-06.01.50:184][334]LogActorFactory: Actor Factory created Cube
+[2017.09.29-06.01.51:919][353]LogActorFactory: Actor Factory created Cube
+[2017.09.29-06.02.07:964][500]Cmd: TRANSACTION UNDO
+[2017.09.29-06.02.07:964][500]LogEditorTransaction: Undo Edit Static Mesh
+[2017.09.29-06.02.41:024][839]Cmd: DELETE
+[2017.09.29-06.02.41:024][839]Cmd: ACTOR DELETE
+[2017.09.29-06.02.41:029][839]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.09.29-06.02.41:109][839]LogEditorActor: Deleted 1 Actors (0.085 secs)
+[2017.09.29-06.03.11:312][932]LogSavePackage: Save=1787.93ms
+[2017.09.29-06.03.11:312][932]LogSavePackage: Moving '../../../../../../Users/Admin/Documents/Unreal Projects/MyProject3/Saved/Untitled_1_Auto40228C6B64BE500D0F42A3C9712749CBB.tmp' to '../../../../../../Users/Admin/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Temp/Untitled_1_Auto4.umap'
+[2017.09.29-06.03.11:352][932]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Admin/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Temp/Untitled_1_Auto4.umap
+[2017.09.29-06.03.11:358][932]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 1.910
+[2017.09.29-06.03.11:359][932]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.910
+[2017.09.29-06.03.11:375][932]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/TexturesCom_FabricPatterns0118_1_S_Mat] ([1] browsable assets)...
+[2017.09.29-06.03.11:492][932]OBJ SavePackage:     Rendered thumbnail for [Material /Game/FirstPersonBP/TexturesCom_FabricPatterns0118_1_S_Mat.TexturesCom_FabricPatterns0118_1_S_Mat]
+[2017.09.29-06.03.11:492][932]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/TexturesCom_FabricPatterns0118_1_S_Mat]
+[2017.09.29-06.03.11:551][932]LogSavePackage: Save=51.64ms
+[2017.09.29-06.03.11:551][932]LogSavePackage: Moving '../../../../../../Users/Admin/Documents/Unreal Projects/MyProject3/Saved/TexturesCom_FabricPatterns0118_1_S_Mat_Auto4A32CB9294747CF3B17277E9BA5DD6E5B.tmp' to '../../../../../../Users/Admin/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/FirstPersonBP/TexturesCom_FabricPatterns0118_1_S_Mat_Auto4.uasset'
+[2017.09.29-06.03.11:558][932]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Admin/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/FirstPersonBP/TexturesCom_FabricPatterns0118_1_S_Mat_Auto4.uasset
+[2017.09.29-06.03.11:558][932]LogFileHelpers: Auto-saving content packages took 0.189
+[2017.09.29-06.06.13:357][411]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Admin/Desktop/assets/sofa/CS038.jpg)
+[2017.09.29-06.06.13:399][411]LogTexture:Display: Building textures: CS038 (BGRA8, 382X507)
+[2017.09.29-06.06.13:500][411]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Admin/Desktop/assets/sofa/leopard.jpg)
+[2017.09.29-06.06.13:577][411]LogTexture:Display: Building textures: leopard (AutoDXT, 640X480)
+[2017.09.29-06.06.14:607][411]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Admin/Desktop/assets/sofa/s523-1.jpg)
+[2017.09.29-06.06.14:632][411]LogTexture:Display: Building textures: s523-1 (BGRA8, 298X260)
+[2017.09.29-06.06.14:753][411]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Admin/Desktop/assets/sofa/sofa.obj)
+[2017.09.29-06.06.15:214][411]LogFbx: Loading FBX Scene from ../../../../../../Users/Admin/Desktop/assets/sofa/sofa.obj
+[2017.09.29-06.06.19:215][411]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.29-06.06.35:629][411]LogFbx: Loading FBX Scene from ../../../../../../Users/Admin/Desktop/assets/sofa/sofa.obj
+[2017.09.29-06.06.40:887][411]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.29-06.06.40:973][411]LogLinker: Can't find file '/Game/FirstPersonBP/wire_229154215'
+[2017.09.29-06.06.40:974][411]LogLinker: Can't find file '/Game/FirstPersonBP/wire_229154215'
+[2017.09.29-06.06.41:010][411]LogMaterial: Missing cached shader map for material wire_229154215, compiling. 
+[2017.09.29-06.06.41:162][411]LogFbx:Warning: Triangulating static mesh ___01
+[2017.09.29-06.06.41:580][411]LogStaticMesh: Building static mesh sofa____01...
+[2017.09.29-06.06.41:625][411]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.06.41:706][411]LogStaticMesh: Built static mesh [0.13s] /Game/FirstPersonBP/sofa____01.sofa____01
+[2017.09.29-06.06.41:865][411]LogLinker: Can't find file '/Game/FirstPersonBP/wire_088088225'
+[2017.09.29-06.06.41:866][411]LogLinker: Can't find file '/Game/FirstPersonBP/wire_088088225'
+[2017.09.29-06.06.41:913][411]LogMaterial: Missing cached shader map for material wire_088088225, compiling. 
+[2017.09.29-06.06.41:978][411]LogFbx:Warning: Triangulating static mesh ______04
+[2017.09.29-06.06.42:631][411]LogStaticMesh: Building static mesh sofa_______04...
+[2017.09.29-06.06.42:641][411]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.06.42:933][411]LogStaticMesh: Built static mesh [0.30s] /Game/FirstPersonBP/sofa_______04.sofa_______04
+[2017.09.29-06.06.43:020][411]LogLinker: Can't find file '/Game/FirstPersonBP/wire_214228153'
+[2017.09.29-06.06.43:020][411]LogLinker: Can't find file '/Game/FirstPersonBP/wire_214228153'
+[2017.09.29-06.06.43:116][411]LogMaterial: Missing cached shader map for material wire_214228153, compiling. 
+[2017.09.29-06.06.43:272][411]LogFbx:Warning: Triangulating static mesh _______04
+[2017.09.29-06.06.44:891][411]LogStaticMesh: Building static mesh sofa________04...
+[2017.09.29-06.06.44:897][411]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.06.44:968][411]LogStaticMesh: Built static mesh [0.08s] /Game/FirstPersonBP/sofa________04.sofa________04
+[2017.09.29-06.06.45:041][411]LogFbx:Warning: Triangulating static mesh _______05
+[2017.09.29-06.06.46:252][411]LogStaticMesh: Building static mesh sofa________05...
+[2017.09.29-06.06.46:258][411]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.06.46:376][411]LogStaticMesh: Built static mesh [0.12s] /Game/FirstPersonBP/sofa________05.sofa________05
+[2017.09.29-06.06.46:416][411]LogFbx:Warning: Triangulating static mesh _______10
+[2017.09.29-06.06.47:551][411]LogStaticMesh: Building static mesh sofa________10...
+[2017.09.29-06.06.47:557][411]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.06.47:631][411]LogStaticMesh: Built static mesh [0.08s] /Game/FirstPersonBP/sofa________10.sofa________10
+[2017.09.29-06.06.47:688][411]LogFbx:Warning: Triangulating static mesh _______11
+[2017.09.29-06.06.48:695][411]LogStaticMesh: Building static mesh sofa________11...
+[2017.09.29-06.06.48:700][411]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.06.48:774][411]LogStaticMesh: Built static mesh [0.08s] /Game/FirstPersonBP/sofa________11.sofa________11
+[2017.09.29-06.06.48:808][411]LogFbx:Warning: Triangulating static mesh _______12
+[2017.09.29-06.06.49:910][411]LogStaticMesh: Building static mesh sofa________12...
+[2017.09.29-06.06.49:915][411]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.06.49:989][411]LogStaticMesh: Built static mesh [0.08s] /Game/FirstPersonBP/sofa________12.sofa________12
+[2017.09.29-06.06.50:046][411]LogFbx:Warning: Triangulating static mesh _______13
+[2017.09.29-06.06.51:077][411]LogStaticMesh: Building static mesh sofa________13...
+[2017.09.29-06.06.51:082][411]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.06.51:155][411]LogStaticMesh: Built static mesh [0.08s] /Game/FirstPersonBP/sofa________13.sofa________13
+[2017.09.29-06.06.51:201][411]LogFbx:Warning: Triangulating static mesh _______14
+[2017.09.29-06.06.52:255][411]LogStaticMesh: Building static mesh sofa________14...
+[2017.09.29-06.06.52:261][411]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.06.52:337][411]LogStaticMesh: Built static mesh [0.08s] /Game/FirstPersonBP/sofa________14.sofa________14
+[2017.09.29-06.06.52:381][411]LogLinker: Can't find file '/Game/FirstPersonBP/wire_154185229'
+[2017.09.29-06.06.52:381][411]LogLinker: Can't find file '/Game/FirstPersonBP/wire_154185229'
+[2017.09.29-06.06.52:404][411]LogMaterial: Missing cached shader map for material wire_154185229, compiling. 
+[2017.09.29-06.06.52:465][411]LogFbx:Warning: Triangulating static mesh Box02
+[2017.09.29-06.07.41:344][411]LogStaticMesh: Building static mesh sofa_Box02...
+[2017.09.29-06.07.41:522][411]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.07.43:907][411]LogStaticMesh: Built static mesh [2.56s] /Game/FirstPersonBP/sofa_Box02.sofa_Box02
+[2017.09.29-06.07.44:532][411]LogLinker: Can't find file '/Game/FirstPersonBP/wire_108008136'
+[2017.09.29-06.07.44:532][411]LogLinker: Can't find file '/Game/FirstPersonBP/wire_108008136'
+[2017.09.29-06.07.44:550][411]LogMaterial: Missing cached shader map for material wire_108008136, compiling. 
+[2017.09.29-06.07.44:620][411]LogFbx:Warning: Triangulating static mesh Box06
+[2017.09.29-06.07.46:420][411]LogStaticMesh: Building static mesh sofa_Box06...
+[2017.09.29-06.07.46:426][411]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.07.46:488][411]LogStaticMesh: Built static mesh [0.07s] /Game/FirstPersonBP/sofa_Box06.sofa_Box06
+[2017.09.29-06.07.46:554][411]LogFbx:Warning: Triangulating static mesh Box07
+[2017.09.29-06.07.48:368][411]LogStaticMesh: Building static mesh sofa_Box07...
+[2017.09.29-06.07.48:372][411]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.07.48:437][411]LogStaticMesh: Built static mesh [0.07s] /Game/FirstPersonBP/sofa_Box07.sofa_Box07
+[2017.09.29-06.07.48:511][411]LogFbx:Warning: Triangulating static mesh Box08
+[2017.09.29-06.07.50:375][411]LogStaticMesh: Building static mesh sofa_Box08...
+[2017.09.29-06.07.50:380][411]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.07.50:445][411]LogStaticMesh: Built static mesh [0.07s] /Game/FirstPersonBP/sofa_Box08.sofa_Box08
+[2017.09.29-06.07.50:484][411]LogLinker: Can't find file '/Game/FirstPersonBP/wire_184228153'
+[2017.09.29-06.07.50:484][411]LogLinker: Can't find file '/Game/FirstPersonBP/wire_184228153'
+[2017.09.29-06.07.50:504][411]LogMaterial: Missing cached shader map for material wire_184228153, compiling. 
+[2017.09.29-06.07.50:570][411]LogFbx:Warning: Triangulating static mesh Box10
+[2017.09.29-06.07.54:215][411]LogStaticMesh: Building static mesh sofa_Box10...
+[2017.09.29-06.07.54:225][411]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.07.54:361][411]LogStaticMesh: Built static mesh [0.15s] /Game/FirstPersonBP/sofa_Box10.sofa_Box10
+[2017.09.29-06.07.54:404][411]LogFbx:Warning: Triangulating static mesh Box11
+[2017.09.29-06.07.57:883][411]LogStaticMesh: Building static mesh sofa_Box11...
+[2017.09.29-06.07.57:894][411]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.07.58:029][411]LogStaticMesh: Built static mesh [0.15s] /Game/FirstPersonBP/sofa_Box11.sofa_Box11
+[2017.09.29-06.07.58:105][411]LogLinker: Can't find file '/Game/FirstPersonBP/wire_088143225'
+[2017.09.29-06.07.58:105][411]LogLinker: Can't find file '/Game/FirstPersonBP/wire_088143225'
+[2017.09.29-06.07.58:121][411]LogMaterial: Missing cached shader map for material wire_088143225, compiling. 
+[2017.09.29-06.07.58:185][411]LogFbx:Warning: Triangulating static mesh Line01
+[2017.09.29-06.07.59:454][411]LogStaticMesh: Building static mesh sofa_Line01...
+[2017.09.29-06.07.59:458][411]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.07.59:499][411]LogStaticMesh: Built static mesh [0.05s] /Game/FirstPersonBP/sofa_Line01.sofa_Line01
+[2017.09.29-06.07.59:560][411]LogFbx:Warning: Triangulating static mesh Line03
+[2017.09.29-06.08.01:850][411]LogStaticMesh: Building static mesh sofa_Line03...
+[2017.09.29-06.08.01:856][411]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.08.01:956][411]LogStaticMesh: Built static mesh [0.11s] /Game/FirstPersonBP/sofa_Line03.sofa_Line03
+[2017.09.29-06.08.02:012][411]LogFbx:Warning: Triangulating static mesh Line117
+[2017.09.29-06.08.02:029][411]LogStaticMesh: Building static mesh sofa_Line117...
+[2017.09.29-06.08.02:030][411]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.08.02:038][411]LogStaticMesh: Built static mesh [0.01s] /Game/FirstPersonBP/sofa_Line117.sofa_Line117
+[2017.09.29-06.08.02:055][411]LogFbx:Warning: Triangulating static mesh Line126
+[2017.09.29-06.08.02:081][411]LogStaticMesh: Building static mesh sofa_Line126...
+[2017.09.29-06.08.02:081][411]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.08.02:099][411]LogStaticMesh: Built static mesh [0.02s] /Game/FirstPersonBP/sofa_Line126.sofa_Line126
+[2017.09.29-06.08.02:117][411]LogFbx:Warning: Triangulating static mesh Line127
+[2017.09.29-06.08.02:135][411]LogStaticMesh: Building static mesh sofa_Line127...
+[2017.09.29-06.08.02:135][411]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.08.02:149][411]LogStaticMesh: Built static mesh [0.01s] /Game/FirstPersonBP/sofa_Line127.sofa_Line127
+[2017.09.29-06.08.02:167][411]LogFbx:Warning: Triangulating static mesh Line129
+[2017.09.29-06.08.02:186][411]LogStaticMesh: Building static mesh sofa_Line129...
+[2017.09.29-06.08.02:186][411]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.08.02:213][411]LogStaticMesh: Built static mesh [0.03s] /Game/FirstPersonBP/sofa_Line129.sofa_Line129
+[2017.09.29-06.08.02:250][411]LogFbx:Warning: Triangulating static mesh Line130
+[2017.09.29-06.08.02:274][411]LogStaticMesh: Building static mesh sofa_Line130...
+[2017.09.29-06.08.02:274][411]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.08.02:287][411]LogStaticMesh: Built static mesh [0.01s] /Game/FirstPersonBP/sofa_Line130.sofa_Line130
+[2017.09.29-06.08.02:338][411]LogFbx:Warning: Triangulating static mesh Line131
+[2017.09.29-06.08.02:367][411]LogStaticMesh: Building static mesh sofa_Line131...
+[2017.09.29-06.08.02:368][411]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.08.02:376][411]LogStaticMesh: Built static mesh [0.01s] /Game/FirstPersonBP/sofa_Line131.sofa_Line131
+[2017.09.29-06.08.02:411][411]LogFbx:Warning: Triangulating static mesh Line174
+[2017.09.29-06.08.04:676][411]LogStaticMesh: Building static mesh sofa_Line174...
+[2017.09.29-06.08.04:683][411]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.08.04:779][411]LogStaticMesh: Built static mesh [0.10s] /Game/FirstPersonBP/sofa_Line174.sofa_Line174
+[2017.09.29-06.08.04:882][411]LogFbx:Warning: Triangulating static mesh Line175
+[2017.09.29-06.08.07:263][411]LogStaticMesh: Building static mesh sofa_Line175...
+[2017.09.29-06.08.07:270][411]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.08.07:369][411]LogStaticMesh: Built static mesh [0.11s] /Game/FirstPersonBP/sofa_Line175.sofa_Line175
+[2017.09.29-06.08.07:405][411]LogFbx:Warning: Triangulating static mesh Line176
+[2017.09.29-06.08.09:701][411]LogStaticMesh: Building static mesh sofa_Line176...
+[2017.09.29-06.08.09:708][411]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.08.09:805][411]LogStaticMesh: Built static mesh [0.10s] /Game/FirstPersonBP/sofa_Line176.sofa_Line176
+[2017.09.29-06.08.09:838][411]LogFbx:Warning: Triangulating static mesh Line177
+[2017.09.29-06.08.12:108][411]LogStaticMesh: Building static mesh sofa_Line177...
+[2017.09.29-06.08.12:114][411]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.08.12:174][411]LogStaticMesh: Built static mesh [0.07s] /Game/FirstPersonBP/sofa_Line177.sofa_Line177
+[2017.09.29-06.08.12:265][411]LogFbx:Warning: Triangulating static mesh Line178
+[2017.09.29-06.08.14:573][411]LogStaticMesh: Building static mesh sofa_Line178...
+[2017.09.29-06.08.14:579][411]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.08.14:635][411]LogStaticMesh: Built static mesh [0.06s] /Game/FirstPersonBP/sofa_Line178.sofa_Line178
+[2017.09.29-06.08.14:690][411]LogFbx:Warning: Triangulating static mesh Line179
+[2017.09.29-06.08.15:942][411]LogStaticMesh: Building static mesh sofa_Line179...
+[2017.09.29-06.08.15:946][411]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.08.15:981][411]LogStaticMesh: Built static mesh [0.04s] /Game/FirstPersonBP/sofa_Line179.sofa_Line179
+[2017.09.29-06.08.16:018][411]LogFbx:Warning: Triangulating static mesh Line180
+[2017.09.29-06.08.17:275][411]LogStaticMesh: Building static mesh sofa_Line180...
+[2017.09.29-06.08.17:278][411]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.08.17:315][411]LogStaticMesh: Built static mesh [0.04s] /Game/FirstPersonBP/sofa_Line180.sofa_Line180
+[2017.09.29-06.08.17:342][411]LogFbx:Warning: Triangulating static mesh Line181
+[2017.09.29-06.08.18:561][411]LogStaticMesh: Building static mesh sofa_Line181...
+[2017.09.29-06.08.18:565][411]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.08.18:603][411]LogStaticMesh: Built static mesh [0.04s] /Game/FirstPersonBP/sofa_Line181.sofa_Line181
+[2017.09.29-06.08.18:631][411]LogFbx:Warning: Triangulating static mesh Line182
+[2017.09.29-06.08.19:844][411]LogStaticMesh: Building static mesh sofa_Line182...
+[2017.09.29-06.08.19:847][411]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.08.19:888][411]LogStaticMesh: Built static mesh [0.04s] /Game/FirstPersonBP/sofa_Line182.sofa_Line182
+[2017.09.29-06.08.19:930][411]LogFbx:Warning: Triangulating static mesh Line183
+[2017.09.29-06.08.21:148][411]LogStaticMesh: Building static mesh sofa_Line183...
+[2017.09.29-06.08.21:152][411]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.08.21:189][411]LogStaticMesh: Built static mesh [0.04s] /Game/FirstPersonBP/sofa_Line183.sofa_Line183
+[2017.09.29-06.08.21:220][411]LogFbx:Warning: Triangulating static mesh Line184
+[2017.09.29-06.08.22:428][411]LogStaticMesh: Building static mesh sofa_Line184...
+[2017.09.29-06.08.22:432][411]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.08.22:468][411]LogStaticMesh: Built static mesh [0.04s] /Game/FirstPersonBP/sofa_Line184.sofa_Line184
+[2017.09.29-06.08.22:496][411]LogFbx:Warning: Triangulating static mesh Line185
+[2017.09.29-06.08.23:713][411]LogStaticMesh: Building static mesh sofa_Line185...
+[2017.09.29-06.08.23:716][411]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.08.23:753][411]LogStaticMesh: Built static mesh [0.04s] /Game/FirstPersonBP/sofa_Line185.sofa_Line185
+[2017.09.29-06.08.23:780][411]LogFbx:Warning: Triangulating static mesh Line186
+[2017.09.29-06.08.24:987][411]LogStaticMesh: Building static mesh sofa_Line186...
+[2017.09.29-06.08.24:990][411]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.08.25:026][411]LogStaticMesh: Built static mesh [0.04s] /Game/FirstPersonBP/sofa_Line186.sofa_Line186
+[2017.09.29-06.08.25:054][411]LogFbx:Warning: Triangulating static mesh Line187
+[2017.09.29-06.08.26:258][411]LogStaticMesh: Building static mesh sofa_Line187...
+[2017.09.29-06.08.26:261][411]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.08.26:296][411]LogStaticMesh: Built static mesh [0.04s] /Game/FirstPersonBP/sofa_Line187.sofa_Line187
+[2017.09.29-06.08.26:326][411]LogFbx:Warning: Triangulating static mesh Loft01
+[2017.09.29-06.08.47:534][411]LogStaticMesh: Building static mesh sofa_Loft01...
+[2017.09.29-06.08.47:601][411]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.08.48:213][411]LogStaticMesh: Built static mesh [0.68s] /Game/FirstPersonBP/sofa_Loft01.sofa_Loft01
+[2017.09.29-06.08.48:463][411]LogFbx:Warning: Triangulating static mesh Loft02
+[2017.09.29-06.09.31:518][411]LogStaticMesh: Building static mesh sofa_Loft02...
+[2017.09.29-06.09.31:738][411]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.09.33:777][411]LogStaticMesh: Built static mesh [2.26s] /Game/FirstPersonBP/sofa_Loft02.sofa_Loft02
+[2017.09.29-06.09.34:314][411]LogFbx:Warning: Triangulating static mesh Loft04
+[2017.09.29-06.09.37:447][411]LogStaticMesh: Building static mesh sofa_Loft04...
+[2017.09.29-06.09.37:458][411]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.09.37:553][411]LogStaticMesh: Built static mesh [0.11s] /Game/FirstPersonBP/sofa_Loft04.sofa_Loft04
+[2017.09.29-06.09.37:692][411]LogFbx:Warning: Triangulating static mesh Loft05
+[2017.09.29-06.09.41:342][411]LogStaticMesh: Building static mesh sofa_Loft05...
+[2017.09.29-06.09.41:358][411]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.09.41:445][411]LogStaticMesh: Built static mesh [0.10s] /Game/FirstPersonBP/sofa_Loft05.sofa_Loft05
+[2017.09.29-06.09.41:564][411]LogFbx:Warning: Triangulating static mesh Loft08
+[2017.09.29-06.09.56:618][411]LogStaticMesh: Building static mesh sofa_Loft08...
+[2017.09.29-06.09.56:667][411]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.09.57:024][411]LogStaticMesh: Built static mesh [0.41s] /Game/FirstPersonBP/sofa_Loft08.sofa_Loft08
+[2017.09.29-06.09.57:188][411]LogFbx:Warning: Triangulating static mesh Loft09
+[2017.09.29-06.10.10:851][411]LogStaticMesh: Building static mesh sofa_Loft09...
+[2017.09.29-06.10.10:898][411]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.10.11:233][411]LogStaticMesh: Built static mesh [0.38s] /Game/FirstPersonBP/sofa_Loft09.sofa_Loft09
+[2017.09.29-06.10.11:386][411]LogLinker: Can't find file '/Game/FirstPersonBP/wire_153228153'
+[2017.09.29-06.10.11:386][411]LogLinker: Can't find file '/Game/FirstPersonBP/wire_153228153'
+[2017.09.29-06.10.11:415][411]LogMaterial: Missing cached shader map for material wire_153228153, compiling. 
+[2017.09.29-06.10.11:476][411]LogFbx:Warning: Triangulating static mesh Shape07
+[2017.09.29-06.10.13:774][411]LogStaticMesh: Building static mesh sofa_Shape07...
+[2017.09.29-06.10.13:780][411]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.10.13:868][411]LogStaticMesh: Built static mesh [0.09s] /Game/FirstPersonBP/sofa_Shape07.sofa_Shape07
+[2017.09.29-06.10.13:903][411]LogLinker: Can't find file '/Game/FirstPersonBP/wire_153228214'
+[2017.09.29-06.10.13:903][411]LogLinker: Can't find file '/Game/FirstPersonBP/wire_153228214'
+[2017.09.29-06.10.13:942][411]LogMaterial: Missing cached shader map for material wire_153228214, compiling. 
+[2017.09.29-06.10.14:005][411]LogFbx:Warning: Triangulating static mesh Shape12
+[2017.09.29-06.10.14:351][411]LogStaticMesh: Building static mesh sofa_Shape12...
+[2017.09.29-06.10.14:353][411]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.10.14:373][411]LogStaticMesh: Built static mesh [0.02s] /Game/FirstPersonBP/sofa_Shape12.sofa_Shape12
+[2017.09.29-06.10.14:404][411]LogFbx:Warning: Triangulating static mesh Shape14
+[2017.09.29-06.10.14:738][411]LogStaticMesh: Building static mesh sofa_Shape14...
+[2017.09.29-06.10.14:740][411]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.10.14:761][411]LogStaticMesh: Built static mesh [0.02s] /Game/FirstPersonBP/sofa_Shape14.sofa_Shape14
+[2017.09.29-06.10.14:805][411]LogFbx:Warning: Triangulating static mesh Shape31
+[2017.09.29-06.10.15:130][411]LogStaticMesh: Building static mesh sofa_Shape31...
+[2017.09.29-06.10.15:131][411]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.10.15:152][411]LogStaticMesh: Built static mesh [0.02s] /Game/FirstPersonBP/sofa_Shape31.sofa_Shape31
+[2017.09.29-06.10.15:197][411]LogFbx:Warning: Triangulating static mesh Shape32
+[2017.09.29-06.10.15:545][411]LogStaticMesh: Building static mesh sofa_Shape32...
+[2017.09.29-06.10.15:546][411]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.10.15:565][411]LogStaticMesh: Built static mesh [0.02s] /Game/FirstPersonBP/sofa_Shape32.sofa_Shape32
+[2017.09.29-06.10.15:607][411]LogFbx:Warning: Triangulating static mesh Shape33
+[2017.09.29-06.10.17:886][411]LogStaticMesh: Building static mesh sofa_Shape33...
+[2017.09.29-06.10.17:892][411]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.10.17:979][411]LogStaticMesh: Built static mesh [0.09s] /Game/FirstPersonBP/sofa_Shape33.sofa_Shape33
+[2017.09.29-06.10.18:030][411]LogFbx:Warning: Triangulating static mesh Shape34
+[2017.09.29-06.10.20:327][411]LogStaticMesh: Building static mesh sofa_Shape34...
+[2017.09.29-06.10.20:333][411]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.10.20:470][411]LogStaticMesh: Built static mesh [0.14s] /Game/FirstPersonBP/sofa_Shape34.sofa_Shape34
+[2017.09.29-06.10.20:512][411]LogFbx:Warning: Triangulating static mesh Shape35
+[2017.09.29-06.10.20:848][411]LogStaticMesh: Building static mesh sofa_Shape35...
+[2017.09.29-06.10.20:849][411]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.10.20:874][411]LogStaticMesh: Built static mesh [0.03s] /Game/FirstPersonBP/sofa_Shape35.sofa_Shape35
+[2017.09.29-06.10.20:929][411]LogFbx:Warning: Triangulating static mesh Shape36
+[2017.09.29-06.10.21:267][411]LogStaticMesh: Building static mesh sofa_Shape36...
+[2017.09.29-06.10.21:268][411]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.10.21:287][411]LogStaticMesh: Built static mesh [0.02s] /Game/FirstPersonBP/sofa_Shape36.sofa_Shape36
+[2017.09.29-06.10.21:338][411]LogFbx:Warning: Triangulating static mesh Shape37
+[2017.09.29-06.10.21:654][411]LogStaticMesh: Building static mesh sofa_Shape37...
+[2017.09.29-06.10.21:656][411]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.10.21:674][411]LogStaticMesh: Built static mesh [0.02s] /Game/FirstPersonBP/sofa_Shape37.sofa_Shape37
+[2017.09.29-06.10.21:695][411]LogFbx:Warning: Triangulating static mesh Star04
+[2017.09.29-06.10.21:969][411]LogStaticMesh: Building static mesh sofa_Star04...
+[2017.09.29-06.10.21:970][411]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.10.22:014][411]LogStaticMesh: Built static mesh [0.05s] /Game/FirstPersonBP/sofa_Star04.sofa_Star04
+[2017.09.29-06.10.22:087][411]LogFbx:Warning: Triangulating static mesh Star05
+[2017.09.29-06.10.22:341][411]LogStaticMesh: Building static mesh sofa_Star05...
+[2017.09.29-06.10.22:342][411]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.10.22:373][411]LogStaticMesh: Built static mesh [0.03s] /Game/FirstPersonBP/sofa_Star05.sofa_Star05
+[2017.09.29-06.10.22:406][411]LogFbx:Warning: Triangulating static mesh Star09
+[2017.09.29-06.10.22:673][411]LogStaticMesh: Building static mesh sofa_Star09...
+[2017.09.29-06.10.22:675][411]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.10.22:706][411]LogStaticMesh: Built static mesh [0.03s] /Game/FirstPersonBP/sofa_Star09.sofa_Star09
+[2017.09.29-06.10.22:745][411]LogFbx:Warning: Triangulating static mesh Star10
+[2017.09.29-06.10.22:999][411]LogStaticMesh: Building static mesh sofa_Star10...
+[2017.09.29-06.10.23:000][411]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.10.23:044][411]LogStaticMesh: Built static mesh [0.05s] /Game/FirstPersonBP/sofa_Star10.sofa_Star10
+[2017.09.29-06.10.23:243][411]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Admin/Desktop/assets/sofa/wood.jpg)
+[2017.09.29-06.10.23:356][411]LogTexture:Display: Building textures: wood (BGRA8, 949X779)
+[2017.09.29-06.11.40:743][597]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Admin\Desktop\assets\sofa/CS038.jpg)
+[2017.09.29-06.11.40:794][597]LogTexture:Display: Building textures: CS038 (BGRA8, 382X507)
+[2017.09.29-06.11.40:923][597]LogAssetTools:Warning: Failed to import 'C:\Users\Admin\Desktop\assets\sofa/divan_galereya.max'. Unknown extension 'max'.
+[2017.09.29-06.11.40:966][597]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Admin\Desktop\assets\sofa/leopard.jpg)
+[2017.09.29-06.11.41:119][597]LogTexture:Display: Building textures: leopard (AutoDXT, 640X480)
+[2017.09.29-06.11.42:410][597]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Admin\Desktop\assets\sofa/s523-1.jpg)
+[2017.09.29-06.11.42:438][597]LogTexture:Display: Building textures: s523-1 (BGRA8, 298X260)
+[2017.09.29-06.11.42:597][597]LogAssetTools:Warning: Failed to import 'C:\Users\Admin\Desktop\assets\sofa/Sofa Gallery Obj.rar'. Unknown extension 'rar'.
+[2017.09.29-06.11.42:625][597]LogAssetTools:Warning: Failed to import 'C:\Users\Admin\Desktop\assets\sofa/Sofa Gallery.rar'. Unknown extension 'rar'.
+[2017.09.29-06.11.42:648][597]LogAssetTools:Warning: Failed to import 'C:\Users\Admin\Desktop\assets\sofa/Sofa Gallery.zip'. Unknown extension 'zip'.
+[2017.09.29-06.11.42:711][597]LogAssetTools:Warning: Failed to import 'C:\Users\Admin\Desktop\assets\sofa/sofa.mtl'. Unknown extension 'mtl'.
+[2017.09.29-06.11.42:821][597]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Admin\Desktop\assets\sofa/sofa.obj)
+[2017.09.29-06.11.43:368][597]LogFbx: Loading FBX Scene from C:\Users\Admin\Desktop\assets\sofa/sofa.obj
+[2017.09.29-06.11.48:991][597]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.29-06.12.46:313][597]LogFbx: Loading FBX Scene from C:\Users\Admin\Desktop\assets\sofa/sofa.obj
+[2017.09.29-06.12.51:469][597]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.29-06.12.51:497][597]LogLinker: Can't find file '/Game/FirstPersonBP/sofa/wire_229154215'
+[2017.09.29-06.12.51:498][597]LogLinker: Can't find file '/Game/FirstPersonBP/sofa/wire_229154215'
+[2017.09.29-06.12.51:516][597]LogMaterial: Missing cached shader map for material wire_229154215, compiling. 
+[2017.09.29-06.12.51:599][597]LogFbx:Warning: Triangulating static mesh ___01
+[2017.09.29-06.12.51:882][597]LogStaticMesh: Building static mesh sofa____01...
+[2017.09.29-06.12.51:883][597]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.12.51:896][597]LogStaticMesh: Built static mesh [0.01s] /Game/FirstPersonBP/sofa/sofa____01.sofa____01
+[2017.09.29-06.12.52:038][597]LogLinker: Can't find file '/Game/FirstPersonBP/sofa/wire_088088225'
+[2017.09.29-06.12.52:039][597]LogLinker: Can't find file '/Game/FirstPersonBP/sofa/wire_088088225'
+[2017.09.29-06.12.52:055][597]LogMaterial: Missing cached shader map for material wire_088088225, compiling. 
+[2017.09.29-06.12.52:133][597]LogFbx:Warning: Triangulating static mesh ______04
+[2017.09.29-06.12.52:888][597]LogStaticMesh: Building static mesh sofa_______04...
+[2017.09.29-06.12.52:898][597]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.12.53:780][597]LogStaticMesh: Built static mesh [0.89s] /Game/FirstPersonBP/sofa/sofa_______04.sofa_______04
+[2017.09.29-06.12.54:132][597]LogLinker: Can't find file '/Game/FirstPersonBP/sofa/wire_214228153'
+[2017.09.29-06.12.54:134][597]LogLinker: Can't find file '/Game/FirstPersonBP/sofa/wire_214228153'
+[2017.09.29-06.12.54:159][597]LogMaterial: Missing cached shader map for material wire_214228153, compiling. 
+[2017.09.29-06.12.54:244][597]LogFbx:Warning: Triangulating static mesh _______04
+[2017.09.29-06.12.55:716][597]LogStaticMesh: Building static mesh sofa________04...
+[2017.09.29-06.12.55:721][597]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.12.55:809][597]LogStaticMesh: Built static mesh [0.09s] /Game/FirstPersonBP/sofa/sofa________04.sofa________04
+[2017.09.29-06.12.55:842][597]LogFbx:Warning: Triangulating static mesh _______05
+[2017.09.29-06.12.56:957][597]LogStaticMesh: Building static mesh sofa________05...
+[2017.09.29-06.12.56:962][597]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.12.57:039][597]LogStaticMesh: Built static mesh [0.08s] /Game/FirstPersonBP/sofa/sofa________05.sofa________05
+[2017.09.29-06.12.57:087][597]LogFbx:Warning: Triangulating static mesh _______10
+[2017.09.29-06.12.58:270][597]LogStaticMesh: Building static mesh sofa________10...
+[2017.09.29-06.12.58:275][597]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.12.58:350][597]LogStaticMesh: Built static mesh [0.08s] /Game/FirstPersonBP/sofa/sofa________10.sofa________10
+[2017.09.29-06.12.58:406][597]LogFbx:Warning: Triangulating static mesh _______11
+[2017.09.29-06.12.59:589][597]LogStaticMesh: Building static mesh sofa________11...
+[2017.09.29-06.12.59:594][597]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.12.59:680][597]LogStaticMesh: Built static mesh [0.09s] /Game/FirstPersonBP/sofa/sofa________11.sofa________11
+[2017.09.29-06.12.59:739][597]LogFbx:Warning: Triangulating static mesh _______12
+[2017.09.29-06.13.01:035][597]LogStaticMesh: Building static mesh sofa________12...
+[2017.09.29-06.13.01:040][597]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.13.01:115][597]LogStaticMesh: Built static mesh [0.08s] /Game/FirstPersonBP/sofa/sofa________12.sofa________12
+[2017.09.29-06.13.01:188][597]LogFbx:Warning: Triangulating static mesh _______13
+[2017.09.29-06.13.02:396][597]LogStaticMesh: Building static mesh sofa________13...
+[2017.09.29-06.13.02:402][597]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.13.02:484][597]LogStaticMesh: Built static mesh [0.09s] /Game/FirstPersonBP/sofa/sofa________13.sofa________13
+[2017.09.29-06.13.02:547][597]LogFbx:Warning: Triangulating static mesh _______14
+[2017.09.29-06.13.03:698][597]LogStaticMesh: Building static mesh sofa________14...
+[2017.09.29-06.13.03:704][597]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.13.03:790][597]LogStaticMesh: Built static mesh [0.09s] /Game/FirstPersonBP/sofa/sofa________14.sofa________14
+[2017.09.29-06.13.03:857][597]LogLinker: Can't find file '/Game/FirstPersonBP/sofa/wire_154185229'
+[2017.09.29-06.13.03:857][597]LogLinker: Can't find file '/Game/FirstPersonBP/sofa/wire_154185229'
+[2017.09.29-06.13.03:873][597]LogMaterial: Missing cached shader map for material wire_154185229, compiling. 
+[2017.09.29-06.13.03:953][597]LogFbx:Warning: Triangulating static mesh Box02
+[2017.09.29-06.15.45:346][597]LogStaticMesh: Building static mesh sofa_Box02...
+[2017.09.29-06.15.50:144][597]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.15.55:110][597]LogStaticMesh: Built static mesh [9.77s] /Game/FirstPersonBP/sofa/sofa_Box02.sofa_Box02
+[2017.09.29-06.16.02:087][597]LogLinker: Can't find file '/Game/FirstPersonBP/sofa/wire_108008136'
+[2017.09.29-06.16.02:087][597]LogLinker: Can't find file '/Game/FirstPersonBP/sofa/wire_108008136'
+[2017.09.29-06.16.02:134][597]LogMaterial: Missing cached shader map for material wire_108008136, compiling. 
+[2017.09.29-06.16.02:519][597]LogFbx:Warning: Triangulating static mesh Box06
+[2017.09.29-06.16.18:361][597]LogStaticMesh: Building static mesh sofa_Box06...
+[2017.09.29-06.16.18:597][597]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.16.20:382][597]LogStaticMesh: Built static mesh [2.02s] /Game/FirstPersonBP/sofa/sofa_Box06.sofa_Box06
+[2017.09.29-06.16.20:801][597]LogFbx:Warning: Triangulating static mesh Box07
+[2017.09.29-06.16.28:831][597]LogStaticMesh: Building static mesh sofa_Box07...
+[2017.09.29-06.16.28:841][597]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.16.28:948][597]LogStaticMesh: Built static mesh [0.12s] /Game/FirstPersonBP/sofa/sofa_Box07.sofa_Box07
+[2017.09.29-06.16.29:045][597]LogFbx:Warning: Triangulating static mesh Box08
+[2017.09.29-06.16.32:319][597]LogStaticMesh: Building static mesh sofa_Box08...
+[2017.09.29-06.16.32:324][597]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.16.32:430][597]LogStaticMesh: Built static mesh [0.11s] /Game/FirstPersonBP/sofa/sofa_Box08.sofa_Box08
+[2017.09.29-06.16.32:565][597]LogLinker: Can't find file '/Game/FirstPersonBP/sofa/wire_184228153'
+[2017.09.29-06.16.32:567][597]LogLinker: Can't find file '/Game/FirstPersonBP/sofa/wire_184228153'
+[2017.09.29-06.16.32:620][597]LogMaterial: Missing cached shader map for material wire_184228153, compiling. 
+[2017.09.29-06.16.32:738][597]LogFbx:Warning: Triangulating static mesh Box10
+[2017.09.29-06.16.50:148][597]LogStaticMesh: Building static mesh sofa_Box10...
+[2017.09.29-06.16.50:162][597]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.16.50:435][597]LogStaticMesh: Built static mesh [0.29s] /Game/FirstPersonBP/sofa/sofa_Box10.sofa_Box10
+[2017.09.29-06.16.50:584][597]LogFbx:Warning: Triangulating static mesh Box11
+[2017.09.29-06.17.03:279][597]LogStaticMesh: Building static mesh sofa_Box11...
+[2017.09.29-06.17.03:326][597]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.17.03:947][597]LogStaticMesh: Built static mesh [0.67s] /Game/FirstPersonBP/sofa/sofa_Box11.sofa_Box11
+[2017.09.29-06.17.04:413][597]LogLinker: Can't find file '/Game/FirstPersonBP/sofa/wire_088143225'
+[2017.09.29-06.17.04:413][597]LogLinker: Can't find file '/Game/FirstPersonBP/sofa/wire_088143225'
+[2017.09.29-06.17.04:516][597]LogMaterial: Missing cached shader map for material wire_088143225, compiling. 
+[2017.09.29-06.17.05:429][597]LogFbx:Warning: Triangulating static mesh Line01
+[2017.09.29-06.17.09:858][597]LogStaticMesh: Building static mesh sofa_Line01...
+[2017.09.29-06.17.09:864][597]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.17.09:937][597]LogStaticMesh: Built static mesh [0.08s] /Game/FirstPersonBP/sofa/sofa_Line01.sofa_Line01
+[2017.09.29-06.17.10:083][597]LogFbx:Warning: Triangulating static mesh Line03
+[2017.09.29-06.17.16:061][597]LogStaticMesh: Building static mesh sofa_Line03...
+[2017.09.29-06.17.16:067][597]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.17.16:189][597]LogStaticMesh: Built static mesh [0.13s] /Game/FirstPersonBP/sofa/sofa_Line03.sofa_Line03
+[2017.09.29-06.17.16:255][597]LogFbx:Warning: Triangulating static mesh Line117
+[2017.09.29-06.17.16:306][597]LogStaticMesh: Building static mesh sofa_Line117...
+[2017.09.29-06.17.16:307][597]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.17.16:316][597]LogStaticMesh: Built static mesh [0.01s] /Game/FirstPersonBP/sofa/sofa_Line117.sofa_Line117
+[2017.09.29-06.17.16:372][597]LogFbx:Warning: Triangulating static mesh Line126
+[2017.09.29-06.17.16:396][597]LogStaticMesh: Building static mesh sofa_Line126...
+[2017.09.29-06.17.16:396][597]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.17.16:409][597]LogStaticMesh: Built static mesh [0.01s] /Game/FirstPersonBP/sofa/sofa_Line126.sofa_Line126
+[2017.09.29-06.17.16:450][597]LogFbx:Warning: Triangulating static mesh Line127
+[2017.09.29-06.17.16:471][597]LogStaticMesh: Building static mesh sofa_Line127...
+[2017.09.29-06.17.16:471][597]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.17.16:510][597]LogStaticMesh: Built static mesh [0.04s] /Game/FirstPersonBP/sofa/sofa_Line127.sofa_Line127
+[2017.09.29-06.17.16:536][597]LogFbx:Warning: Triangulating static mesh Line129
+[2017.09.29-06.17.16:559][597]LogStaticMesh: Building static mesh sofa_Line129...
+[2017.09.29-06.17.16:559][597]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.17.16:571][597]LogStaticMesh: Built static mesh [0.01s] /Game/FirstPersonBP/sofa/sofa_Line129.sofa_Line129
+[2017.09.29-06.17.16:589][597]LogFbx:Warning: Triangulating static mesh Line130
+[2017.09.29-06.17.16:608][597]LogStaticMesh: Building static mesh sofa_Line130...
+[2017.09.29-06.17.16:608][597]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.17.16:646][597]LogStaticMesh: Built static mesh [0.04s] /Game/FirstPersonBP/sofa/sofa_Line130.sofa_Line130
+[2017.09.29-06.17.16:701][597]LogFbx:Warning: Triangulating static mesh Line131
+[2017.09.29-06.17.16:724][597]LogStaticMesh: Building static mesh sofa_Line131...
+[2017.09.29-06.17.16:724][597]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.17.16:732][597]LogStaticMesh: Built static mesh [0.01s] /Game/FirstPersonBP/sofa/sofa_Line131.sofa_Line131
+[2017.09.29-06.17.16:752][597]LogFbx:Warning: Triangulating static mesh Line174
+[2017.09.29-06.17.19:294][597]LogStaticMesh: Building static mesh sofa_Line174...
+[2017.09.29-06.17.19:301][597]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.17.19:401][597]LogStaticMesh: Built static mesh [0.11s] /Game/FirstPersonBP/sofa/sofa_Line174.sofa_Line174
+[2017.09.29-06.17.19:448][597]LogFbx:Warning: Triangulating static mesh Line175
+[2017.09.29-06.17.24:585][597]LogStaticMesh: Building static mesh sofa_Line175...
+[2017.09.29-06.17.24:594][597]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.17.24:796][597]LogStaticMesh: Built static mesh [0.21s] /Game/FirstPersonBP/sofa/sofa_Line175.sofa_Line175
+[2017.09.29-06.17.25:015][597]LogFbx:Warning: Triangulating static mesh Line176
+[2017.09.29-06.17.30:437][597]LogStaticMesh: Building static mesh sofa_Line176...
+[2017.09.29-06.17.30:445][597]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.17.30:554][597]LogStaticMesh: Built static mesh [0.12s] /Game/FirstPersonBP/sofa/sofa_Line176.sofa_Line176
+[2017.09.29-06.17.30:620][597]LogFbx:Warning: Triangulating static mesh Line177
+[2017.09.29-06.17.34:665][597]LogStaticMesh: Building static mesh sofa_Line177...
+[2017.09.29-06.17.34:672][597]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.17.34:741][597]LogStaticMesh: Built static mesh [0.08s] /Game/FirstPersonBP/sofa/sofa_Line177.sofa_Line177
+[2017.09.29-06.17.34:894][597]LogFbx:Warning: Triangulating static mesh Line178
+[2017.09.29-06.17.43:607][597]LogStaticMesh: Building static mesh sofa_Line178...
+[2017.09.29-06.17.43:613][597]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.17.43:697][597]LogStaticMesh: Built static mesh [0.09s] /Game/FirstPersonBP/sofa/sofa_Line178.sofa_Line178
+[2017.09.29-06.17.44:902][597]LogFbx:Warning: Triangulating static mesh Line179
+[2017.09.29-06.17.48:636][597]LogStaticMesh: Building static mesh sofa_Line179...
+[2017.09.29-06.17.48:640][597]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.17.48:680][597]LogStaticMesh: Built static mesh [0.04s] /Game/FirstPersonBP/sofa/sofa_Line179.sofa_Line179
+[2017.09.29-06.17.48:777][597]LogFbx:Warning: Triangulating static mesh Line180
+[2017.09.29-06.17.52:818][597]LogStaticMesh: Building static mesh sofa_Line180...
+[2017.09.29-06.17.52:822][597]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.17.52:873][597]LogStaticMesh: Built static mesh [0.06s] /Game/FirstPersonBP/sofa/sofa_Line180.sofa_Line180
+[2017.09.29-06.17.52:956][597]LogFbx:Warning: Triangulating static mesh Line181
+[2017.09.29-06.17.55:090][597]LogStaticMesh: Building static mesh sofa_Line181...
+[2017.09.29-06.17.55:094][597]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.17.55:272][597]LogStaticMesh: Built static mesh [0.18s] /Game/FirstPersonBP/sofa/sofa_Line181.sofa_Line181
+[2017.09.29-06.17.55:382][597]LogFbx:Warning: Triangulating static mesh Line182
+[2017.09.29-06.17.59:289][597]LogStaticMesh: Building static mesh sofa_Line182...
+[2017.09.29-06.17.59:293][597]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.17.59:456][597]LogStaticMesh: Built static mesh [0.17s] /Game/FirstPersonBP/sofa/sofa_Line182.sofa_Line182
+[2017.09.29-06.17.59:690][597]LogFbx:Warning: Triangulating static mesh Line183
+[2017.09.29-06.18.07:020][597]LogStaticMesh: Building static mesh sofa_Line183...
+[2017.09.29-06.18.07:024][597]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.18.07:146][597]LogStaticMesh: Built static mesh [0.13s] /Game/FirstPersonBP/sofa/sofa_Line183.sofa_Line183
+[2017.09.29-06.18.07:506][597]LogFbx:Warning: Triangulating static mesh Line184
+[2017.09.29-06.18.15:513][597]LogStaticMesh: Building static mesh sofa_Line184...
+[2017.09.29-06.18.15:532][597]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.18.15:646][597]LogStaticMesh: Built static mesh [0.13s] /Game/FirstPersonBP/sofa/sofa_Line184.sofa_Line184
+[2017.09.29-06.18.15:863][597]LogFbx:Warning: Triangulating static mesh Line185
+[2017.09.29-06.18.26:062][597]LogStaticMesh: Building static mesh sofa_Line185...
+[2017.09.29-06.18.26:105][597]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.18.26:732][597]LogStaticMesh: Built static mesh [0.67s] /Game/FirstPersonBP/sofa/sofa_Line185.sofa_Line185
+[2017.09.29-06.18.28:677][597]LogFbx:Warning: Triangulating static mesh Line186
+[2017.09.29-06.18.33:488][597]LogStaticMesh: Building static mesh sofa_Line186...
+[2017.09.29-06.18.33:499][597]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.18.33:608][597]LogStaticMesh: Built static mesh [0.13s] /Game/FirstPersonBP/sofa/sofa_Line186.sofa_Line186
+[2017.09.29-06.18.33:783][597]LogFbx:Warning: Triangulating static mesh Line187
+[2017.09.29-06.18.37:139][597]LogStaticMesh: Building static mesh sofa_Line187...
+[2017.09.29-06.18.37:142][597]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.18.37:221][597]LogStaticMesh: Built static mesh [0.08s] /Game/FirstPersonBP/sofa/sofa_Line187.sofa_Line187
+[2017.09.29-06.18.37:475][597]LogFbx:Warning: Triangulating static mesh Loft01
+[2017.09.29-06.20.36:433][597]LogStaticMesh: Building static mesh sofa_Loft01...
+[2017.09.29-06.20.36:700][597]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.20.38:254][597]LogStaticMesh: Built static mesh [1.82s] /Game/FirstPersonBP/sofa/sofa_Loft01.sofa_Loft01
+[2017.09.29-06.20.39:035][597]LogFbx:Warning: Triangulating static mesh Loft02
+[2017.09.29-06.23.00:162][597]LogStaticMesh: Building static mesh sofa_Loft02...
+[2017.09.29-06.23.00:317][597]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.23.01:646][597]LogStaticMesh: Built static mesh [1.48s] /Game/FirstPersonBP/sofa/sofa_Loft02.sofa_Loft02
+[2017.09.29-06.23.02:196][597]LogFbx:Warning: Triangulating static mesh Loft04
+[2017.09.29-06.23.05:556][597]LogStaticMesh: Building static mesh sofa_Loft04...
+[2017.09.29-06.23.05:563][597]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.23.05:622][597]LogStaticMesh: Built static mesh [0.07s] /Game/FirstPersonBP/sofa/sofa_Loft04.sofa_Loft04
+[2017.09.29-06.23.05:687][597]LogFbx:Warning: Triangulating static mesh Loft05
+[2017.09.29-06.23.10:109][597]LogStaticMesh: Building static mesh sofa_Loft05...
+[2017.09.29-06.23.10:357][597]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.23.17:519][597]LogStaticMesh: Built static mesh [7.41s] /Game/FirstPersonBP/sofa/sofa_Loft05.sofa_Loft05
+[2017.09.29-06.23.21:897][597]LogFbx:Warning: Triangulating static mesh Loft08
+[2017.09.29-06.26.23:102][597]LogStaticMesh: Building static mesh sofa_Loft08...
+[2017.09.29-06.26.23:587][597]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.26.27:359][597]LogStaticMesh: Built static mesh [4.26s] /Game/FirstPersonBP/sofa/sofa_Loft08.sofa_Loft08
+[2017.09.29-06.26.29:925][597]LogFbx:Warning: Triangulating static mesh Loft09
+[2017.09.29-06.27.28:506][597]LogStaticMesh: Building static mesh sofa_Loft09...
+[2017.09.29-06.27.28:564][597]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.27.29:158][597]LogStaticMesh: Built static mesh [0.65s] /Game/FirstPersonBP/sofa/sofa_Loft09.sofa_Loft09
+[2017.09.29-06.27.29:831][597]LogLinker: Can't find file '/Game/FirstPersonBP/sofa/wire_153228153'
+[2017.09.29-06.27.29:831][597]LogLinker: Can't find file '/Game/FirstPersonBP/sofa/wire_153228153'
+[2017.09.29-06.27.29:864][597]LogMaterial: Missing cached shader map for material wire_153228153, compiling. 
+[2017.09.29-06.27.29:942][597]LogFbx:Warning: Triangulating static mesh Shape07
+[2017.09.29-06.27.33:364][597]LogStaticMesh: Building static mesh sofa_Shape07...
+[2017.09.29-06.27.33:374][597]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.27.33:568][597]LogStaticMesh: Built static mesh [0.20s] /Game/FirstPersonBP/sofa/sofa_Shape07.sofa_Shape07
+[2017.09.29-06.27.33:705][597]LogLinker: Can't find file '/Game/FirstPersonBP/sofa/wire_153228214'
+[2017.09.29-06.27.33:705][597]LogLinker: Can't find file '/Game/FirstPersonBP/sofa/wire_153228214'
+[2017.09.29-06.27.33:723][597]LogMaterial: Missing cached shader map for material wire_153228214, compiling. 
+[2017.09.29-06.27.33:849][597]LogFbx:Warning: Triangulating static mesh Shape12
+[2017.09.29-06.27.34:804][597]LogStaticMesh: Building static mesh sofa_Shape12...
+[2017.09.29-06.27.34:806][597]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.27.34:876][597]LogStaticMesh: Built static mesh [0.07s] /Game/FirstPersonBP/sofa/sofa_Shape12.sofa_Shape12
+[2017.09.29-06.27.35:064][597]LogFbx:Warning: Triangulating static mesh Shape14
+[2017.09.29-06.27.35:650][597]LogStaticMesh: Building static mesh sofa_Shape14...
+[2017.09.29-06.27.35:651][597]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.27.35:703][597]LogStaticMesh: Built static mesh [0.04s] /Game/FirstPersonBP/sofa/sofa_Shape14.sofa_Shape14
+[2017.09.29-06.27.35:824][597]LogFbx:Warning: Triangulating static mesh Shape31
+[2017.09.29-06.27.36:294][597]LogStaticMesh: Building static mesh sofa_Shape31...
+[2017.09.29-06.27.36:295][597]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.27.36:317][597]LogStaticMesh: Built static mesh [0.02s] /Game/FirstPersonBP/sofa/sofa_Shape31.sofa_Shape31
+[2017.09.29-06.27.36:401][597]LogFbx:Warning: Triangulating static mesh Shape32
+[2017.09.29-06.27.36:890][597]LogStaticMesh: Building static mesh sofa_Shape32...
+[2017.09.29-06.27.36:891][597]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.27.36:916][597]LogStaticMesh: Built static mesh [0.03s] /Game/FirstPersonBP/sofa/sofa_Shape32.sofa_Shape32
+[2017.09.29-06.27.37:036][597]LogFbx:Warning: Triangulating static mesh Shape33
+[2017.09.29-06.27.41:268][597]LogStaticMesh: Building static mesh sofa_Shape33...
+[2017.09.29-06.27.41:343][597]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.27.41:728][597]LogStaticMesh: Built static mesh [0.46s] /Game/FirstPersonBP/sofa/sofa_Shape33.sofa_Shape33
+[2017.09.29-06.27.41:820][597]LogFbx:Warning: Triangulating static mesh Shape34
+[2017.09.29-06.27.46:307][597]LogStaticMesh: Building static mesh sofa_Shape34...
+[2017.09.29-06.27.46:316][597]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.27.46:474][597]LogStaticMesh: Built static mesh [0.17s] /Game/FirstPersonBP/sofa/sofa_Shape34.sofa_Shape34
+[2017.09.29-06.27.46:604][597]LogFbx:Warning: Triangulating static mesh Shape35
+[2017.09.29-06.27.46:967][597]LogStaticMesh: Building static mesh sofa_Shape35...
+[2017.09.29-06.27.46:970][597]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.27.46:999][597]LogStaticMesh: Built static mesh [0.03s] /Game/FirstPersonBP/sofa/sofa_Shape35.sofa_Shape35
+[2017.09.29-06.27.47:096][597]LogFbx:Warning: Triangulating static mesh Shape36
+[2017.09.29-06.27.47:613][597]LogStaticMesh: Building static mesh sofa_Shape36...
+[2017.09.29-06.27.47:614][597]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.27.47:655][597]LogStaticMesh: Built static mesh [0.09s] /Game/FirstPersonBP/sofa/sofa_Shape36.sofa_Shape36
+[2017.09.29-06.27.47:774][597]LogFbx:Warning: Triangulating static mesh Shape37
+[2017.09.29-06.27.48:229][597]LogStaticMesh: Building static mesh sofa_Shape37...
+[2017.09.29-06.27.48:231][597]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.27.48:301][597]LogStaticMesh: Built static mesh [0.07s] /Game/FirstPersonBP/sofa/sofa_Shape37.sofa_Shape37
+[2017.09.29-06.27.48:382][597]LogFbx:Warning: Triangulating static mesh Star04
+[2017.09.29-06.27.48:723][597]LogStaticMesh: Building static mesh sofa_Star04...
+[2017.09.29-06.27.48:724][597]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.27.48:785][597]LogStaticMesh: Built static mesh [0.06s] /Game/FirstPersonBP/sofa/sofa_Star04.sofa_Star04
+[2017.09.29-06.27.48:859][597]LogFbx:Warning: Triangulating static mesh Star05
+[2017.09.29-06.27.49:147][597]LogStaticMesh: Building static mesh sofa_Star05...
+[2017.09.29-06.27.49:149][597]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.27.49:181][597]LogStaticMesh: Built static mesh [0.03s] /Game/FirstPersonBP/sofa/sofa_Star05.sofa_Star05
+[2017.09.29-06.27.49:272][597]LogFbx:Warning: Triangulating static mesh Star09
+[2017.09.29-06.27.49:610][597]LogStaticMesh: Building static mesh sofa_Star09...
+[2017.09.29-06.27.49:612][597]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.27.49:644][597]LogStaticMesh: Built static mesh [0.03s] /Game/FirstPersonBP/sofa/sofa_Star09.sofa_Star09
+[2017.09.29-06.27.49:732][597]LogFbx:Warning: Triangulating static mesh Star10
+[2017.09.29-06.27.50:081][597]LogStaticMesh: Building static mesh sofa_Star10...
+[2017.09.29-06.27.50:083][597]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.27.50:143][597]LogStaticMesh: Built static mesh [0.06s] /Game/FirstPersonBP/sofa/sofa_Star10.sofa_Star10
+[2017.09.29-06.27.50:485][597]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Admin\Desktop\assets\sofa/wood.jpg)
+[2017.09.29-06.27.50:637][597]LogTexture:Display: Building textures: wood (BGRA8, 949X779)
+[2017.09.29-06.30.04:589][105]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Admin\Desktop\assets\sofa/CS038.jpg)
+[2017.09.29-06.30.04:638][105]LogTexture:Display: Building textures: CS038 (BGRA8, 382X507)
+[2017.09.29-06.30.04:793][105]LogAssetTools:Warning: Failed to import 'C:\Users\Admin\Desktop\assets\sofa/divan_galereya.max'. Unknown extension 'max'.
+[2017.09.29-06.30.04:863][105]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Admin\Desktop\assets\sofa/leopard.jpg)
+[2017.09.29-06.30.04:951][105]LogTexture:Display: Building textures: leopard (AutoDXT, 640X480)
+[2017.09.29-06.30.06:217][105]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Admin\Desktop\assets\sofa/s523-1.jpg)
+[2017.09.29-06.30.06:246][105]LogTexture:Display: Building textures: s523-1 (BGRA8, 298X260)
+[2017.09.29-06.30.06:386][105]LogAssetTools:Warning: Failed to import 'C:\Users\Admin\Desktop\assets\sofa/Sofa Gallery Obj.rar'. Unknown extension 'rar'.
+[2017.09.29-06.30.06:411][105]LogAssetTools:Warning: Failed to import 'C:\Users\Admin\Desktop\assets\sofa/Sofa Gallery.rar'. Unknown extension 'rar'.
+[2017.09.29-06.30.06:435][105]LogAssetTools:Warning: Failed to import 'C:\Users\Admin\Desktop\assets\sofa/Sofa Gallery.zip'. Unknown extension 'zip'.
+[2017.09.29-06.30.06:461][105]LogAssetTools:Warning: Failed to import 'C:\Users\Admin\Desktop\assets\sofa/sofa.mtl'. Unknown extension 'mtl'.
+[2017.09.29-06.30.06:548][105]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Admin\Desktop\assets\sofa/sofa.obj)
+[2017.09.29-06.30.06:968][105]LogFbx: Loading FBX Scene from C:\Users\Admin\Desktop\assets\sofa/sofa.obj
+[2017.09.29-06.30.14:479][105]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.29-06.30.45:170][105]LogFbx: Loading FBX Scene from C:\Users\Admin\Desktop\assets\sofa/sofa.obj
+[2017.09.29-06.30.55:073][105]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.29-06.30.55:107][105]LogLinker: Can't find file '/Game/assets/sofa/wire_229154215'
+[2017.09.29-06.30.55:107][105]LogLinker: Can't find file '/Game/assets/sofa/wire_229154215'
+[2017.09.29-06.30.55:135][105]LogMaterial: Missing cached shader map for material wire_229154215, compiling. 
+[2017.09.29-06.30.55:238][105]LogFbx:Warning: Triangulating static mesh ___01
+[2017.09.29-06.30.55:556][105]LogLinker: Can't find file '/Game/assets/sofa/wire_088088225'
+[2017.09.29-06.30.55:557][105]LogLinker: Can't find file '/Game/assets/sofa/wire_088088225'
+[2017.09.29-06.30.55:577][105]LogMaterial: Missing cached shader map for material wire_088088225, compiling. 
+[2017.09.29-06.30.55:676][105]LogFbx:Warning: Triangulating static mesh ______04
+[2017.09.29-06.30.56:506][105]LogLinker: Can't find file '/Game/assets/sofa/wire_214228153'
+[2017.09.29-06.30.56:508][105]LogLinker: Can't find file '/Game/assets/sofa/wire_214228153'
+[2017.09.29-06.30.56:530][105]LogMaterial: Missing cached shader map for material wire_214228153, compiling. 
+[2017.09.29-06.30.56:617][105]LogFbx:Warning: Triangulating static mesh _______04
+[2017.09.29-06.30.58:018][105]LogFbx:Warning: Triangulating static mesh _______05
+[2017.09.29-06.30.59:430][105]LogFbx:Warning: Triangulating static mesh _______10
+[2017.09.29-06.31.01:020][105]LogFbx:Warning: Triangulating static mesh _______11
+[2017.09.29-06.31.02:437][105]LogFbx:Warning: Triangulating static mesh _______12
+[2017.09.29-06.31.04:034][105]LogFbx:Warning: Triangulating static mesh _______13
+[2017.09.29-06.31.05:527][105]LogFbx:Warning: Triangulating static mesh _______14
+[2017.09.29-06.31.06:917][105]LogLinker: Can't find file '/Game/assets/sofa/wire_154185229'
+[2017.09.29-06.31.06:918][105]LogLinker: Can't find file '/Game/assets/sofa/wire_154185229'
+[2017.09.29-06.31.06:941][105]LogMaterial: Missing cached shader map for material wire_154185229, compiling. 
+[2017.09.29-06.31.07:066][105]LogFbx:Warning: Triangulating static mesh Box02
+[2017.09.29-06.32.08:602][105]LogLinker: Can't find file '/Game/assets/sofa/wire_108008136'
+[2017.09.29-06.32.08:603][105]LogLinker: Can't find file '/Game/assets/sofa/wire_108008136'
+[2017.09.29-06.32.08:650][105]LogMaterial: Missing cached shader map for material wire_108008136, compiling. 
+[2017.09.29-06.32.08:724][105]LogFbx:Warning: Triangulating static mesh Box06
+[2017.09.29-06.32.10:782][105]LogFbx:Warning: Triangulating static mesh Box07
+[2017.09.29-06.32.13:008][105]LogFbx:Warning: Triangulating static mesh Box08
+[2017.09.29-06.32.15:144][105]LogLinker: Can't find file '/Game/assets/sofa/wire_184228153'
+[2017.09.29-06.32.15:145][105]LogLinker: Can't find file '/Game/assets/sofa/wire_184228153'
+[2017.09.29-06.32.15:166][105]LogMaterial: Missing cached shader map for material wire_184228153, compiling. 
+[2017.09.29-06.32.15:253][105]LogFbx:Warning: Triangulating static mesh Box10
+[2017.09.29-06.32.20:533][105]LogFbx:Warning: Triangulating static mesh Box11
+[2017.09.29-06.32.24:206][105]LogLinker: Can't find file '/Game/assets/sofa/wire_088143225'
+[2017.09.29-06.32.24:207][105]LogLinker: Can't find file '/Game/assets/sofa/wire_088143225'
+[2017.09.29-06.32.24:229][105]LogMaterial: Missing cached shader map for material wire_088143225, compiling. 
+[2017.09.29-06.32.24:306][105]LogFbx:Warning: Triangulating static mesh Line01
+[2017.09.29-06.32.30:982][105]LogFbx:Warning: Triangulating static mesh Line03
+[2017.09.29-06.32.36:135][105]LogFbx:Warning: Triangulating static mesh Line117
+[2017.09.29-06.32.36:156][105]LogFbx:Warning: Triangulating static mesh Line126
+[2017.09.29-06.32.36:176][105]LogFbx:Warning: Triangulating static mesh Line127
+[2017.09.29-06.32.36:195][105]LogFbx:Warning: Triangulating static mesh Line129
+[2017.09.29-06.32.36:219][105]LogFbx:Warning: Triangulating static mesh Line130
+[2017.09.29-06.32.36:260][105]LogFbx:Warning: Triangulating static mesh Line131
+[2017.09.29-06.32.36:327][105]LogFbx:Warning: Triangulating static mesh Line174
+[2017.09.29-06.32.39:526][105]LogFbx:Warning: Triangulating static mesh Line175
+[2017.09.29-06.32.49:166][105]LogFbx:Warning: Triangulating static mesh Line176
+[2017.09.29-06.32.57:440][105]LogFbx:Warning: Triangulating static mesh Line177
+[2017.09.29-06.33.08:284][105]LogFbx:Warning: Triangulating static mesh Line178
+[2017.09.29-06.33.15:601][105]LogFbx:Warning: Triangulating static mesh Line179
+[2017.09.29-06.33.17:585][105]LogFbx:Warning: Triangulating static mesh Line180
+[2017.09.29-06.33.19:625][105]LogFbx:Warning: Triangulating static mesh Line181
+[2017.09.29-06.33.21:582][105]LogFbx:Warning: Triangulating static mesh Line182
+[2017.09.29-06.33.23:909][105]LogFbx:Warning: Triangulating static mesh Line183
+[2017.09.29-06.33.29:507][105]LogFbx:Warning: Triangulating static mesh Line184
+[2017.09.29-06.33.32:371][105]LogFbx:Warning: Triangulating static mesh Line185
+[2017.09.29-06.33.34:162][105]LogFbx:Warning: Triangulating static mesh Line186
+[2017.09.29-06.33.37:084][105]LogFbx:Warning: Triangulating static mesh Line187
+[2017.09.29-06.33.50:556][105]LogFbx:Warning: Triangulating static mesh Loft01
+[2017.09.29-06.36.12:069][105]LogFbx:Warning: Triangulating static mesh Loft02
+[2017.09.29-06.40.45:340][105]LogFbx:Warning: Triangulating static mesh Loft04
+[2017.09.29-06.41.06:412][105]LogFbx:Warning: Triangulating static mesh Loft05
+[2017.09.29-06.41.43:326][105]LogFbx:Warning: Triangulating static mesh Loft08
+[2017.09.29-06.43.41:600][105]LogFbx:Warning: Triangulating static mesh Loft09
+[2017.09.29-06.45.20:106][105]LogLinker: Can't find file '/Game/assets/sofa/wire_153228153'
+[2017.09.29-06.45.20:107][105]LogLinker: Can't find file '/Game/assets/sofa/wire_153228153'
+[2017.09.29-06.45.20:214][105]LogMaterial: Missing cached shader map for material wire_153228153, compiling. 
+[2017.09.29-06.45.20:326][105]LogFbx:Warning: Triangulating static mesh Shape07
+[2017.09.29-06.45.25:049][105]LogLinker: Can't find file '/Game/assets/sofa/wire_153228214'
+[2017.09.29-06.45.25:059][105]LogLinker: Can't find file '/Game/assets/sofa/wire_153228214'
+[2017.09.29-06.45.27:616][105]LogMaterial: Missing cached shader map for material wire_153228214, compiling. 
+[2017.09.29-06.45.29:499][105]LogFbx:Warning: Triangulating static mesh Shape12
+[2017.09.29-06.45.34:541][105]LogFbx:Warning: Triangulating static mesh Shape14
+[2017.09.29-06.45.37:327][105]LogFbx:Warning: Triangulating static mesh Shape31
+[2017.09.29-06.45.41:546][105]LogFbx:Warning: Triangulating static mesh Shape32
+[2017.09.29-06.45.43:927][105]LogFbx:Warning: Triangulating static mesh Shape33
+[2017.09.29-06.46.01:041][105]LogFbx:Warning: Triangulating static mesh Shape34
+[2017.09.29-06.46.05:801][105]LogFbx:Warning: Triangulating static mesh Shape35
+[2017.09.29-06.46.06:296][105]LogFbx:Warning: Triangulating static mesh Shape36
+[2017.09.29-06.46.06:807][105]LogFbx:Warning: Triangulating static mesh Shape37
+[2017.09.29-06.46.07:338][105]LogFbx:Warning: Triangulating static mesh Star04
+[2017.09.29-06.46.07:688][105]LogFbx:Warning: Triangulating static mesh Star05
+[2017.09.29-06.46.08:069][105]LogFbx:Warning: Triangulating static mesh Star09
+[2017.09.29-06.46.08:447][105]LogFbx:Warning: Triangulating static mesh Star10
+[2017.09.29-06.46.12:796][105]LogStaticMesh: Building static mesh sofa...
+[2017.09.29-06.46.24:885][105]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.09.29-06.46.51:086][105]LogStaticMesh: Built static mesh [38.35s] /Game/assets/sofa/sofa.sofa
+[2017.09.29-06.47.00:495][105]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Admin\Desktop\assets\sofa/wood.jpg)
+[2017.09.29-06.47.00:630][105]LogTexture:Display: Building textures: wood (BGRA8, 949X779)
+[2017.09.29-06.47.07:061][137]LogActorFactory: Actor Factory created sofa
+[2017.09.29-06.47.19:707][219]LogActorFactory: Actor Factory created sofa
+[2017.09.29-06.47.29:838][298]Cmd: TRANSACTION UNDO
+[2017.09.29-06.47.29:838][298]LogEditorTransaction: Undo Scale Actors
+[2017.09.29-06.47.35:174][339]Cmd: TRANSACTION UNDO
+[2017.09.29-06.47.35:174][339]LogEditorTransaction: Undo Create Actors
+[2017.09.29-06.47.49:353][449]LogActorFactory: Actor Factory created sofa
+[2017.09.29-06.47.50:955][461]LogActorFactory: Actor Factory created sofa
+[2017.09.29-06.49.15:177][685]LogSavePackage: Save=1714.13ms
+[2017.09.29-06.49.15:177][685]LogSavePackage: Moving '../../../../../../Users/Admin/Documents/Unreal Projects/MyProject3/Saved/Untitled_1_Auto5308EC6624407B25CAF2E59B1FCD284EA.tmp' to '../../../../../../Users/Admin/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Temp/Untitled_1_Auto5.umap'
+[2017.09.29-06.49.15:198][685]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Admin/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Temp/Untitled_1_Auto5.umap
+[2017.09.29-06.49.15:204][685]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 1.910
+[2017.09.29-06.49.15:204][685]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.910
+[2017.09.29-06.49.21:749][755]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.09.29-06.49.21:824][755]LogEditorActor: Deleted 1 Actors (0.077 secs)
+[2017.09.29-06.49.42:200][828]LogAIModule: Creating AISystem for world Untitled
+[2017.09.29-06.49.42:751][828]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Untitled" FILE="../../../../../../Users/Admin/Documents/Unreal Projects/MyProject3/Content/Untitled.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.29-06.49.46:454][828]LogSavePackage: Save=2867.61ms
+[2017.09.29-06.49.46:454][828]LogSavePackage: Moving '../../../../../../Users/Admin/Documents/Unreal Projects/MyProject3/Saved/UntitledB94DD105447EB36E6D858EA934A02BAB.tmp' to '../../../../../../Users/Admin/Documents/Unreal Projects/MyProject3/Content/Untitled.umap'
+[2017.09.29-06.49.46:465][828]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Admin/Documents/Unreal Projects/MyProject3/Content/Untitled.umap
+[2017.09.29-06.49.46:508][828]LogFileHelpers: Saving map 'Untitled' took 16.508
+[2017.09.29-06.49.47:827][828]LogSavePackage: Save=1255.08ms
+[2017.09.29-06.49.47:827][828]LogSavePackage: Moving '../../../../../../Users/Admin/Documents/Unreal Projects/MyProject3/Saved/TexturesCom_TilesOrnate0066_MB872952A4C66E992822950812D356F56.tmp' to '../../../../../../Users/Admin/Documents/Unreal Projects/MyProject3/Content/FirstPersonBP/TexturesCom_TilesOrnate0066_M.uasset'
+[2017.09.29-06.49.47:862][828]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Admin/Documents/Unreal Projects/MyProject3/Content/FirstPersonBP/TexturesCom_TilesOrnate0066_M.uasset
+[2017.09.29-06.49.48:145][828]LogSavePackage: Save=56.63ms
+[2017.09.29-06.49.48:145][828]LogSavePackage: Moving '../../../../../../Users/Admin/Documents/Unreal Projects/MyProject3/Saved/TexturesCom_TilesOrnate0066_M_Mat928713EB44D3273CEC55CA9CF6020DEE.tmp' to '../../../../../../Users/Admin/Documents/Unreal Projects/MyProject3/Content/FirstPersonBP/TexturesCom_TilesOrnate0066_M_Mat.uasset'
+[2017.09.29-06.49.48:167][828]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Admin/Documents/Unreal Projects/MyProject3/Content/FirstPersonBP/TexturesCom_TilesOrnate0066_M_Mat.uasset
+[2017.09.29-06.49.48:376][828]LogSavePackage: Save=58.52ms
+[2017.09.29-06.49.48:376][828]LogSavePackage: Moving '../../../../../../Users/Admin/Documents/Unreal Projects/MyProject3/Saved/TexturesCom_FabricPatterns0118_1_S_MatA344BE94428358DD18F21BBA558A8046.tmp' to '../../../../../../Users/Admin/Documents/Unreal Projects/MyProject3/Content/FirstPersonBP/TexturesCom_FabricPatterns0118_1_S_Mat.uasset'
+[2017.09.29-06.49.48:397][828]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Admin/Documents/Unreal Projects/MyProject3/Content/FirstPersonBP/TexturesCom_FabricPatterns0118_1_S_Mat.uasset
+[2017.09.29-06.51.55:697][295]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/assets/Luxury Living Room Chair/LuxuryLivingRoomChairFBX' is not a standard unreal filename or a long path name. Reason: Name may not contain the following characters:  
+[2017.09.29-06.51.55:697][295]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/assets/Luxury Living Room Chair/LuxuryLivingRoomChairFBX' is not a standard unreal filename or a long path name. Reason: Name may not contain the following characters:  
+[2017.09.29-06.51.55:697][295]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/assets/Luxury Living Room Chair/LuxuryLivingRoomChairMa' is not a standard unreal filename or a long path name. Reason: Name may not contain the following characters:  
+[2017.09.29-06.51.55:697][295]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/assets/Luxury Living Room Chair/LuxuryLivingRoomChairMa' is not a standard unreal filename or a long path name. Reason: Name may not contain the following characters:  
+[2017.09.29-06.51.55:697][295]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/assets/Luxury Living Room Chair/LuxuryLivingRoomChairOBJ' is not a standard unreal filename or a long path name. Reason: Name may not contain the following characters:  
+[2017.09.29-06.51.55:697][295]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/assets/Luxury Living Room Chair/LuxuryLivingRoomChairOBJ' is not a standard unreal filename or a long path name. Reason: Name may not contain the following characters:  
+[2017.09.29-06.51.55:749][295]LogAssetTools:Warning: Failed to import 'C:\Users\Admin\Desktop\assets\chair2\Luxury Living Room Chair/LuxuryLivingRoomChairFBX.7z'. Unknown extension '7z'.
+[2017.09.29-06.51.55:770][295]LogAssetTools:Warning: Failed to import 'C:\Users\Admin\Desktop\assets\chair2\Luxury Living Room Chair/LuxuryLivingRoomChairMa.7z'. Unknown extension '7z'.
+[2017.09.29-06.51.55:819][295]LogAssetTools:Warning: Failed to import 'C:\Users\Admin\Desktop\assets\chair2\Luxury Living Room Chair/LuxuryLivingRoomChairOBJ.7z'. Unknown extension '7z'.
+[2017.09.29-06.52.54:530][494]LogAssetTools:Warning: Failed to import 'C:\Users\Admin\Desktop\assets\chair2\Luxury Living Room Chair\LuxuryLivingRoomChairOBJ/LuxuryLivingRoomChair.mtl'. Unknown extension 'mtl'.
+[2017.09.29-06.52.55:296][494]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Admin\Desktop\assets\chair2\Luxury Living Room Chair\LuxuryLivingRoomChairOBJ/LuxuryLivingRoomChair.obj)
+[2017.09.29-06.52.57:999][494]LogFbx: Loading FBX Scene from C:\Users\Admin\Desktop\assets\chair2\Luxury Living Room Chair\LuxuryLivingRoomChairOBJ/LuxuryLivingRoomChair.obj
+[2017.09.29-06.53.50:658][494]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.29-06.54.01:724][494]LogFbx: Loading FBX Scene from C:\Users\Admin\Desktop\assets\chair2\Luxury Living Room Chair\LuxuryLivingRoomChairOBJ/LuxuryLivingRoomChair.obj
+[2017.09.29-06.54.45:613][494]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.29-06.54.45:831][494]LogLinker: Can't find file '/Game/assets/LuxuryLivingRoomChairOBJ/ChairArmLeftSG'
+[2017.09.29-06.54.45:832][494]LogLinker: Can't find file '/Game/assets/LuxuryLivingRoomChairOBJ/ChairArmLeftSG'
+[2017.09.29-06.54.46:132][494]LogMaterial: Missing cached shader map for material ChairArmLeftSG, compiling. 
+[2017.09.29-06.54.47:095][494]LogFbx:Warning: Triangulating static mesh LuxuryLivingRoomFurnitureSet:ChairArmLeft
+[2017.09.29-06.54.54:173][494]LogFbx:Warning: Triangulating static mesh LuxuryLivingRoomFurnitureSet:ChairArmLeft1
+[2017.09.29-06.55.55:631][494]LogLinker: Can't find file '/Game/assets/LuxuryLivingRoomChairOBJ/ChairArmRestsSG'
+[2017.09.29-06.55.55:633][494]LogLinker: Can't find file '/Game/assets/LuxuryLivingRoomChairOBJ/ChairArmRestsSG'
+[2017.09.29-06.55.55:746][494]LogMaterial: Missing cached shader map for material ChairArmRestsSG, compiling. 
+[2017.09.29-06.55.55:978][494]LogLinker: Can't find file '/Game/assets/LuxuryLivingRoomChairOBJ/ChairArmRestsSG1'
+[2017.09.29-06.55.55:979][494]LogLinker: Can't find file '/Game/assets/LuxuryLivingRoomChairOBJ/ChairArmRestsSG1'
+[2017.09.29-06.55.56:113][494]LogMaterial: Missing cached shader map for material ChairArmRestsSG1, compiling. 
+[2017.09.29-06.55.56:245][494]LogFbx:Warning: Triangulating static mesh LuxuryLivingRoomFurnitureSet:ChairArmRests
+[2017.09.29-06.56.01:494][494]LogFbx:Warning: Triangulating static mesh LuxuryLivingRoomFurnitureSet:ChairArmRests1
+[2017.09.29-07.00.54:433][494]LogFbx:Warning: Triangulating static mesh LuxuryLivingRoomFurnitureSet:ChairArmRight
+[2017.09.29-07.02.12:170][494]LogLinker: Can't find file '/Game/assets/LuxuryLivingRoomChairOBJ/ChairBackCusionSG'
+[2017.09.29-07.02.12:171][494]LogLinker: Can't find file '/Game/assets/LuxuryLivingRoomChairOBJ/ChairBackCusionSG'
+[2017.09.29-07.02.12:255][494]LogMaterial: Missing cached shader map for material ChairBackCusionSG, compiling. 
+[2017.09.29-07.02.12:642][494]LogFbx:Warning: Triangulating static mesh LuxuryLivingRoomFurnitureSet:ChairBackCushion
+[2017.09.29-07.02.14:356][494]LogFbx:Warning: Triangulating static mesh LuxuryLivingRoomFurnitureSet:ChairBackCusion
+[2017.09.29-07.02.41:477][494]LogLinker: Can't find file '/Game/assets/LuxuryLivingRoomChairOBJ/ChairCushionSG'
+[2017.09.29-07.02.41:478][494]LogLinker: Can't find file '/Game/assets/LuxuryLivingRoomChairOBJ/ChairCushionSG'
+[2017.09.29-07.02.41:658][494]LogMaterial: Missing cached shader map for material ChairCushionSG, compiling. 
+[2017.09.29-07.02.41:951][494]LogFbx:Warning: Triangulating static mesh LuxuryLivingRoomFurnitureSet:ChairBottomCushion
+[2017.09.29-07.02.43:125][494]LogFbx:Warning: Triangulating static mesh LuxuryLivingRoomFurnitureSet:ChairBpttomCushion
+[2017.09.29-07.03.07:082][494]LogFbx:Warning: Triangulating static mesh LuxuryLivingRoomFurnitureSet:ChairCushion
+[2017.09.29-07.03.10:558][494]LogFbx:Warning: Triangulating static mesh LuxuryLivingRoomFurnitureSet:ChairCushion1
+[2017.09.29-07.03.56:554][494]LogLinker: Can't find file '/Game/assets/LuxuryLivingRoomChairOBJ/ChairFrame1SG'
+[2017.09.29-07.03.56:555][494]LogLinker: Can't find file '/Game/assets/LuxuryLivingRoomChairOBJ/ChairFrame1SG'
+[2017.09.29-07.03.56:621][494]LogMaterial: Missing cached shader map for material ChairFrame1SG, compiling. 
+[2017.09.29-07.03.56:843][494]LogFbx:Warning: Triangulating static mesh LuxuryLivingRoomFurnitureSet:ChairDetailing10
+[2017.09.29-07.03.56:943][494]LogLinker: Can't find file '/Game/assets/LuxuryLivingRoomChairOBJ/ChairDetailing4SG'
+[2017.09.29-07.03.56:943][494]LogLinker: Can't find file '/Game/assets/LuxuryLivingRoomChairOBJ/ChairDetailing4SG'
+[2017.09.29-07.03.57:044][494]LogMaterial: Missing cached shader map for material ChairDetailing4SG, compiling. 
+[2017.09.29-07.03.57:288][494]LogFbx:Warning: Triangulating static mesh LuxuryLivingRoomFurnitureSet:ChairDetailing2
+[2017.09.29-07.05.35:854][494]LogLinker: Can't find file '/Game/assets/LuxuryLivingRoomChairOBJ/ChairDetailing3SG'
+[2017.09.29-07.05.35:855][494]LogLinker: Can't find file '/Game/assets/LuxuryLivingRoomChairOBJ/ChairDetailing3SG'
+[2017.09.29-07.05.35:902][494]LogMaterial: Missing cached shader map for material ChairDetailing3SG, compiling. 
+[2017.09.29-07.05.36:015][494]LogFbx:Warning: Triangulating static mesh LuxuryLivingRoomFurnitureSet:ChairDetailing3
+[2017.09.29-07.05.42:989][494]LogFbx:Warning: Triangulating static mesh LuxuryLivingRoomFurnitureSet:ChairDetailing4
+[2017.09.29-07.06.24:932][494]LogFbx:Warning: Triangulating static mesh LuxuryLivingRoomFurnitureSet:ChairDetailing5
+[2017.09.29-07.06.24:955][494]LogFbx:Warning: Triangulating static mesh LuxuryLivingRoomFurnitureSet:ChairDetailing6
+[2017.09.29-07.06.59:286][494]LogFbx:Warning: Triangulating static mesh LuxuryLivingRoomFurnitureSet:ChairDetailing7
+[2017.09.29-07.09.51:293][494]LogFbx:Warning: Triangulating static mesh LuxuryLivingRoomFurnitureSet:ChairDetailing8
+[2017.09.29-07.09.51:333][494]LogFbx:Warning: Triangulating static mesh LuxuryLivingRoomFurnitureSet:ChairDetailing9
+[2017.09.29-07.15.42:168][494]LogLinker: Can't find file '/Game/assets/LuxuryLivingRoomChairOBJ/ChairFrameSG'
+[2017.09.29-07.15.42:170][494]LogLinker: Can't find file '/Game/assets/LuxuryLivingRoomChairOBJ/ChairFrameSG'
+[2017.09.29-07.15.42:509][494]LogMaterial: Missing cached shader map for material ChairFrameSG, compiling. 
+[2017.09.29-07.15.57:212][494]LogFbx:Warning: Triangulating static mesh LuxuryLivingRoomFurnitureSet:ChairFrame
+[2017.09.29-07.16.05:212][494]LogFbx:Warning: Triangulating static mesh LuxuryLivingRoomFurnitureSet:ChairFrame1
+[2017.09.29-07.16.05:264][494]LogFbx:Warning: Triangulating static mesh LuxuryLivingRoomFurnitureSet:ChairFrame2
+[2017.09.29-07.17.42:067][494]LogLinker: Can't find file '/Game/assets/LuxuryLivingRoomChairOBJ/ChairLegs1SG'
+[2017.09.29-07.17.42:067][494]LogLinker: Can't find file '/Game/assets/LuxuryLivingRoomChairOBJ/ChairLegs1SG'
+[2017.09.29-07.17.42:167][494]LogMaterial: Missing cached shader map for material ChairLegs1SG, compiling. 
+[2017.09.29-07.17.42:746][494]LogFbx:Warning: Triangulating static mesh LuxuryLivingRoomFurnitureSet:ChairLegs1
+[2017.09.29-07.18.20:886][494]LogFbx:Warning: Triangulating static mesh LuxuryLivingRoomFurnitureSet:ChairLegs2
